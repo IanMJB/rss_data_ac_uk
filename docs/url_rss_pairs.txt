@@ -1,0 +1,5340 @@
+abdn.ac.uk:
+Array
+(
+    [0] => http://www.abdn.ac.uk/news/rss.xml
+    [1] => http://www.abdn.ac.uk/events/rss.xml
+)
+
+aberdeen.ac.uk:
+Array
+(
+    [0] => http://www.abdn.ac.uk/news/rss.xml
+    [1] => http://www.abdn.ac.uk/events/rss.xml
+)
+
+abertay.ac.uk:
+Array
+(
+    [0] => http://feeds.feedburner.com/abertayuni
+)
+
+accesshe.ac.uk:
+Array
+(
+    [0] => http://accesshe.ac.uk/feed/
+    [1] => http://accesshe.ac.uk/comments/feed/
+    [2] => http://accesshe.ac.uk/home/feed/
+)
+
+accesstohe.ac.uk:
+Array
+(
+    [0] => "/pages/rss.aspx
+)
+
+aced.ac.uk:
+Array
+(
+    [0] => "/index.php/feed/index.htm
+)
+
+aces.ac.uk:
+Array
+(
+    [0] => "/news/rss.xml
+    [1] => "/events/rss.xml
+)
+
+acm.ac.uk:
+Array
+(
+    [0] => http://www.acm.ac.uk/feed/
+    [1] => http://www.acm.ac.uk/comments/feed/
+)
+
+actual.ac.uk:
+Array
+(
+    [0] => http://www.actual.ac.uk/feed/
+    [1] => http://www.actual.ac.uk/comments/feed/
+)
+
+adls.ac.uk:
+Array
+(
+    [0] => http://www.adls.ac.uk/feed/
+)
+
+aecc.ac.uk:
+Array
+(
+    [0] => "/system/site/feed/rss.aspx
+)
+
+agrifoodatp.ac.uk:
+Array
+(
+    [0] => http://cmslive.nottingham.ac.uk/aatp/index.aspx?schoolhomepagelisting_syndicationtype=1
+)
+
+ahds.ac.uk:
+Array
+(
+    [0] => http://blogs.ahds.ac.uk/?feed=rss2
+)
+
+aim25.ac.uk:
+Array
+(
+    [0] => "/rss/news.xml
+)
+
+aimhigher.ac.uk:
+Array
+(
+    [0] => http://www.heacademy.ac.uk/rss
+)
+
+alcs.ac.uk:
+Array
+(
+    [0] => http://alcs.group.shef.ac.uk/feed/
+    [1] => http://alcs.group.shef.ac.uk/comments/feed/
+)
+
+amerc.ac.uk:
+Array
+(
+    [0] => "/news.php
+)
+
+amgueddfacymru.ac.uk:
+Array
+(
+    [0] => "/xml/?content=feeds:news
+    [1] => "/xml/?content=feeds:events
+    [2] => "/xml/?content=feeds:jobs
+)
+
+anglia-ruskin.ac.uk:
+Array
+(
+    [0] => "/ruskin/en/home/xml/rss_news_headlines.html
+)
+
+anglia.ac.uk:
+Array
+(
+    [0] => "/ruskin/en/home/xml/rss_news_headlines.html
+)
+
+antarctic.ac.uk:
+Array
+(
+    [0] => http://www.antarctica.ac.uk/about_bas/news/rss.php
+    [1] => http://www.antarctica.ac.uk/images/iotd/rss.php
+    [2] => http://www.antarctica.ac.uk/images/iotd/rss.php?cat=1
+)
+
+antarctica.ac.uk:
+Array
+(
+    [0] => http://www.antarctica.ac.uk/about_bas/news/rss.php
+    [1] => http://www.antarctica.ac.uk/images/iotd/rss.php
+    [2] => http://www.antarctica.ac.uk/images/iotd/rss.php?cat=1
+)
+
+apts.ac.uk:
+Array
+(
+    [0] => http://www2.warwick.ac.uk/sitebuilder2/api/rss/sitechanges.rss?page=/fac/sci/statistics/apts
+    [1] => http://www.ncl.ac.uk/maths/gtp/
+    [2] => http://www.rss.org.uk/yss
+)
+
+archie-west.ac.uk:
+Array
+(
+    [0] => http://www.archie-west.ac.uk/feed/
+    [1] => http://www.archie-west.ac.uk/comments/feed/
+)
+
+arctic.ac.uk:
+Array
+(
+    [0] => http://www.arctic.ac.uk/feed/
+    [1] => http://www.arctic.ac.uk/comments/feed/
+)
+
+ariadne.ac.uk:
+Array
+(
+    [0] => "/rss.xml
+    [1] => "/forthcoming/feed/forthcoming-articles.rss
+    [2] => "/current-issue.rss
+)
+
+arm.ac.uk:
+Array
+(
+    [0] => "/rss-latest.xml
+)
+
+artsandhealthresearch.ac.uk:
+Array
+(
+    [0] => http://cmslive.nottingham.ac.uk/artshealthandwellbeing/index.aspx?schoolhomepagenews_syndicationtype=1
+    [1] => http://cmslive.nottingham.ac.uk/artshealthandwellbeing/index.aspx?schoolhomepageevents_standardlist_syndicationtype=1
+    [2] => http://cmslive.nottingham.ac.uk/artshealthandwellbeing/index.aspx?schoolhomepageevents_minilist_syndicationtype=1
+)
+
+aru.ac.uk:
+Array
+(
+    [0] => "/ruskin/en/home/xml/rss_news_headlines.html
+)
+
+asfc.ac.uk:
+Array
+(
+    [0] => http://www.asfc.ac.uk/?feed=rss2
+)
+
+associationforpoliticalthought.ac.uk:
+Array
+(
+    [0] => http://www.associationforpoliticalthought.ac.uk/feed/
+    [1] => http://www.associationforpoliticalthought.ac.uk/comments/feed/
+)
+
+asthma-allergy.ac.uk:
+Array
+(
+    [0] => http://www.asthma-allergy.ac.uk/rss.xml
+)
+
+aston.ac.uk:
+Array
+(
+    [0] => http://www1.aston.ac.uk/aston-news.rss
+    [1] => "/events.rss
+)
+
+astrobiology.ac.uk:
+Array
+(
+    [0] => http://www.astrobiology.ac.uk/feed/
+    [1] => http://www.astrobiology.ac.uk/comments/feed/
+)
+
+aue.ac.uk:
+Array
+(
+    [0] => http://feeds.feedburner.com/aue-associationofuniversityengineers?format=xml
+)
+
+aukcar.ac.uk:
+Array
+(
+    [0] => http://www.aukcar.ac.uk/?feed=rss2
+    [1] => http://www.aukcar.ac.uk/?feed=comments-rss2
+)
+
+aylesbury.ac.uk:
+Array
+(
+    [0] => "/news/newsrss.aspx
+)
+
+baa.ac.uk:
+Array
+(
+    [0] => http://www.baa.ac.uk/feed.rss.html
+)
+
+baas.ac.uk:
+Array
+(
+    [0] => http://www.baas.ac.uk/feed/
+    [1] => http://www.baas.ac.uk/comments/feed/
+)
+
+babraham.ac.uk:
+Array
+(
+    [0] => http://www.babraham.ac.uk/home/feed/
+)
+
+backoncourse.ac.uk:
+Array
+(
+    [0] => http://www.backoncourse.ac.uk/feed/
+    [1] => http://www.backoncourse.ac.uk/comments/feed/
+    [2] => http://www.backoncourse.ac.uk/home-example-5/feed/
+)
+
+backstage.ac.uk:
+Array
+(
+    [0] => http://www.performingartscollections.org.uk/home/feed/
+)
+
+badc.ac.uk:
+Array
+(
+    [0] => http://www.ceda.ac.uk/blog/feeds/atom/
+    [1] => http://www.ceda.ac.uk/blog/feeds/rss/
+)
+
+bafa.ac.uk:
+Array
+(
+    [0] => http://www.bafa.ac.uk/feed.rss.html
+)
+
+bailer.ac.uk:
+Array
+(
+    [0] => http://www.bailer.ac.uk/feed/
+    [1] => http://www.bailer.ac.uk/home/feed/
+)
+
+bams.ac.uk:
+Array
+(
+    [0] => http://bams.ac.uk/feed/
+    [1] => http://bams.ac.uk/comments/feed/
+)
+
+barony.ac.uk:
+Array
+(
+    [0] => http://www.sruc.ac.uk/rss/news
+)
+
+bas.ac.uk:
+Array
+(
+    [0] => http://www.antarctica.ac.uk/about_bas/news/rss.php
+    [1] => http://www.antarctica.ac.uk/images/iotd/rss.php
+    [2] => http://www.antarctica.ac.uk/images/iotd/rss.php?cat=1
+)
+
+basingstoke.ac.uk:
+Array
+(
+    [0] => "/rss/
+)
+
+basr.ac.uk:
+Array
+(
+    [0] => http://basr.ac.uk/feed/
+    [1] => http://basr.ac.uk/comments/feed/
+)
+
+bath.ac.uk:
+Array
+(
+    [0] => http://www.bath.ac.uk/news/feed/
+    [1] => http://feeds.bath.ac.uk/public-lecture-podcast
+    [2] => http://www.bath.ac.uk/jobs/rss/rss.aspx
+)
+
+bathspa.ac.uk:
+Array
+(
+    [0] => "/rss?projection=4230
+)
+
+bbk.ac.uk:
+Array
+(
+    [0] => http://www.bbk.ac.uk/news/aggregator/rss
+)
+
+bcot.ac.uk:
+Array
+(
+    [0] => "/rss/
+)
+
+behavioural-science.ac.uk:
+Array
+(
+    [0] => http://cmslive.nottingham.ac.uk/esrc-nibs/index.aspx?schoolhomepagenews_syndicationtype=1
+)
+
+beinspiredatstaffs.ac.uk:
+Array
+(
+    [0] => http://www.beinspiredatstaffs.ac.uk/feed/
+    [1] => http://www.beinspiredatstaffs.ac.uk/comments/feed/
+)
+
+bexley.ac.uk:
+Array
+(
+    [0] => http://www.bexley.ac.uk/feed/
+    [1] => http://www.bexley.ac.uk/comments/feed/
+    [2] => "/?feed=rss2
+)
+
+bhrc.ac.uk:
+Array
+(
+    [0] => http://www.bhrc.ac.uk/feed/
+    [1] => http://www.bhrc.ac.uk/initiatives/feed/
+)
+
+bicc.ac.uk:
+Array
+(
+    [0] => http://www.bicc.ac.uk/feed/
+    [1] => http://www.bicc.ac.uk/comments/feed/
+    [2] => http://www.bicc.ac.uk/bicc-phase-1-archive/feed/
+)
+
+biea.ac.uk:
+Array
+(
+    [0] => http://www.biea.ac.uk/sample-page/feed/
+)
+
+bigidea.ac.uk:
+Array
+(
+    [0] => "/pages/rssfeeds.aspx
+)
+
+bileta.ac.uk:
+Array
+(
+    [0] => "/news.rss
+)
+
+bimacademy.ac.uk:
+Array
+(
+    [0] => http://collab.northumbria.ac.uk/bim2/feed
+    [1] => http://collab.northumbria.ac.uk/bim2/comments/feed
+)
+
+biobankingsolutions.ac.uk:
+Array
+(
+    [0] => http://www.biobankingsolutions.ac.uk/home/feed/
+    [1] => http://www.biobankingsolutions.ac.uk/wp/wp-content/plugins/nextgen-gallery/xml/media-rss.php
+)
+
+biochar.ac.uk:
+Array
+(
+    [0] => "/
+)
+
+bioethics.ac.uk:
+Array
+(
+    [0] => "/rss.php
+)
+
+bips.ac.uk:
+Array
+(
+    [0] => http://bips.ac.uk/feed/
+    [1] => http://bips.ac.uk/comments/feed/
+)
+
+birbeckstratford.ac.uk:
+Array
+(
+    [0] => http://www.bbk.ac.uk/prospective/news/aggregator/rss
+)
+
+birkbeck.ac.uk:
+Array
+(
+    [0] => http://www.bbk.ac.uk/news/aggregator/rss
+)
+
+birkbeckstratford.ac.uk:
+Array
+(
+    [0] => http://www.bbk.ac.uk/prospective/news/aggregator/rss
+)
+
+bisa.ac.uk:
+Array
+(
+    [0] => "/index.php?format=feed&type=rss
+)
+
+bishopburton.ac.uk:
+Array
+(
+    [0] => http://feeds.feedburner.com/bishopburtoncollegeeventsfeed
+    [1] => http://feeds.feedburner.com/bishopburtoncollegenewsfeed
+    [2] => "/news/rss-help
+)
+
+bisi.ac.uk:
+Array
+(
+    [0] => http://www.bisi.ac.uk/rss.xml
+)
+
+bite.ac.uk:
+Array
+(
+    [0] => "/index.php?format=feed&type=rss
+    [1] => "/#
+)
+
+blackburn.ac.uk:
+Array
+(
+    [0] => http://www.blackburn.ac.uk/feed/
+    [1] => http://www.blackburn.ac.uk/home-page/feed/
+)
+
+blms.ac.uk:
+Array
+(
+    [0] => http://www.blms.ac.uk/feed/
+    [1] => http://www.blms.ac.uk/comments/feed/
+    [2] => http://www.blms.ac.uk/about/feed/
+    [3] => http://clairee.me/blms/?feed=rss2
+    [4] => http://clairee.me/blms/?feed=comments-rss2
+)
+
+bloomsbury.ac.uk:
+Array
+(
+    [0] => http://www.bloomsbury.ac.uk/rss.xml
+)
+
+bmetc.ac.uk:
+Array
+(
+    [0] => http://www.bmetc.ac.uk/rss.xml
+)
+
+bnac.ac.uk:
+Array
+(
+    [0] => http://bnac.ac.uk/home/feed/
+)
+
+boa.ac.uk:
+Array
+(
+    [0] => http://www.boa.ac.uk/feed/
+    [1] => http://www.boa.ac.uk/comments/feed/
+    [2] => http://www.boa.ac.uk/boa/feed/
+)
+
+bodc.ac.uk:
+Array
+(
+    [0] => http://feeds.bodc.ac.uk/bodc
+    [1] => http://feeds.bodc.ac.uk/bodc_headlines
+    [2] => http://feeds.bodc.ac.uk/twitter_feed
+)
+
+bolton.ac.uk:
+Array
+(
+    [0] => http://www.bolton.ac.uk/home.aspx?latestnews_syndicationtype=1
+    [1] => http://www.bolton.ac.uk/home.aspx?events_syndicationtype=1
+)
+
+boltoncollegestem.ac.uk:
+Array
+(
+    [0] => http://boltoncollegestem.ac.uk/feed/
+    [1] => http://boltoncollegestem.ac.uk/comments/feed/
+)
+
+bopcris.ac.uk:
+Array
+(
+    [0] => "/mediacentre/news/feeds/rssfeed.xml
+    [1] => "/library/news/rssfeed.xml
+)
+
+bournville.ac.uk:
+Array
+(
+    [0] => http://www.bournville.ac.uk/feed/
+    [1] => http://www.bournville.ac.uk/comments/feed/
+)
+
+bps.ac.uk:
+Array
+(
+    [0] => "/
+)
+
+brad.ac.uk:
+Array
+(
+    [0] => http://feeds.feedburner.com/universityofbradfordpressreleases
+)
+
+bradford.ac.uk:
+Array
+(
+    [0] => http://feeds.feedburner.com/universityofbradfordpressreleases
+)
+
+brais.ac.uk:
+Array
+(
+    [0] => http://www.brais.ac.uk/feed/
+    [1] => http://www.brais.ac.uk/comments/feed/
+)
+
+bretton.ac.uk:
+Array
+(
+    [0] => http://www.leeds.ac.uk/rss/news
+)
+
+brin.ac.uk:
+Array
+(
+    [0] => http://www.brin.ac.uk/feed/
+    [1] => http://www.brin.ac.uk/comments/feed/
+    [2] => http://www.brin.ac.uk/home/feed/
+)
+
+brismes.ac.uk:
+Array
+(
+    [0] => "/index.php?format=feed&type=rss
+)
+
+british-history.ac.uk:
+Array
+(
+    [0] => http://feedproxy.google.com/britishhistoryonlinejournal
+    [1] => http://feedproxy.google.com/britishhistoryonlinenewpublications
+)
+
+brock.ac.uk:
+Array
+(
+    [0] => "/_code/module_news/rss.php
+    [1] => "/_code/module_news/rss.php?summary=200
+)
+
+bromley.ac.uk:
+Array
+(
+    [0] => http://www.bromley.ac.uk/feed/
+    [1] => http://www.bromley.ac.uk/comments/feed/
+    [2] => http://www.bromley.ac.uk/home/feed/
+)
+
+brooksbymelton.ac.uk:
+Array
+(
+    [0] => http://www.brooksbymelton.ac.uk/rss/news
+)
+
+bsac.ac.uk:
+Array
+(
+    [0] => http://bsac.ac.uk/feed/
+    [1] => http://bsac.ac.uk/comments/feed/
+    [2] => http://bsac.ac.uk/welcome-to-the-benedictine-study-and-arts-centres-website-2/feed/
+)
+
+bsls.ac.uk:
+Array
+(
+    [0] => http://www.bsls.ac.uk/feed/
+    [1] => http://www.bsls.ac.uk/comments/feed/
+)
+
+bsmb.ac.uk:
+Array
+(
+    [0] => http://www.bsmb.ac.uk/feed/
+    [1] => http://www.bsmb.ac.uk/comments/feed/
+)
+
+bso.ac.uk:
+Array
+(
+    [0] => "/feed.xml
+)
+
+bsr.ac.uk:
+Array
+(
+    [0] => http://www.bsr.ac.uk/home/feed
+)
+
+buba.ac.uk:
+Array
+(
+    [0] => http://www.buba.ac.uk/feed
+    [1] => http://www.buba.ac.uk/comments/feed
+    [2] => http://www.buba.ac.uk/home-page/feed
+)
+
+buck.ac.uk:
+Array
+(
+    [0] => http://www.buckingham.ac.uk/feed/
+    [1] => http://www.buckingham.ac.uk/comments/feed/
+)
+
+buckingham.ac.uk:
+Array
+(
+    [0] => http://www.buckingham.ac.uk/feed/
+    [1] => http://www.buckingham.ac.uk/comments/feed/
+)
+
+bufvc.ac.uk:
+Array
+(
+    [0] => http://bufvc.ac.uk/feed
+)
+
+burnley.ac.uk:
+Array
+(
+    [0] => http://www.burnley.ac.uk/feed/
+    [1] => http://www.burnley.ac.uk/comments/feed/
+)
+
+butex.ac.uk:
+Array
+(
+    [0] => http://www.butex.ac.uk/feed/
+    [1] => http://www.butex.ac.uk/comments/feed/
+)
+
+c-scaipe.ac.uk:
+Array
+(
+    [0] => "/pressoffice/newsfeed/index.xml
+)
+
+cabot.ac.uk:
+Array
+(
+    [0] => http://www.cabot.ac.uk/index.php/feed/
+    [1] => http://www.cabot.ac.uk/index.php/comments/feed/
+)
+
+cadarn.ac.uk:
+Array
+(
+    [0] => http://www.cadarn.ac.uk/feed/
+    [1] => http://www.cadarn.ac.uk/comments/feed/
+)
+
+caerdydd.ac.uk:
+Array
+(
+    [0] => http://www.cardiff.ac.uk/news/rss.xml
+)
+
+cafre.ac.uk:
+Array
+(
+    [0] => http://www.cafre.ac.uk/home/feed/
+)
+
+calat.ac.uk:
+Array
+(
+    [0] => http://www.calat.ac.uk/feed/
+    [1] => http://www.calat.ac.uk/comments/feed/
+)
+
+caledonian.ac.uk:
+Array
+(
+    [0] => http://www.gcu.ac.uk/newsevents/feeds/feeds.php?s=pn
+    [1] => http://twitter.com/statuses/user_timeline/49667039.rss
+)
+
+cambria.ac.uk:
+Array
+(
+    [0] => http://www.cambria.ac.uk/home/feed/
+)
+
+camre.ac.uk:
+Array
+(
+    [0] => http://www.camre.ac.uk/welcome-to-cambridge-regional-college/feed/
+    [1] => "/employers/
+    [2] => "/feed
+)
+
+cannock.ac.uk:
+Array
+(
+    [0] => http://www.southstaffs.ac.uk/feed/
+    [1] => http://www.southstaffs.ac.uk/comments/feed/
+)
+
+cant-col.ac.uk:
+Array
+(
+    [0] => "/index.php/tools/blocks/pronews_list/rss?bid=6072&cid=1&arhandle=latest news
+)
+
+canterburycollege.ac.uk:
+Array
+(
+    [0] => "/index.php/tools/blocks/pronews_list/rss?bid=6072&cid=1&arhandle=latest news
+)
+
+capel.ac.uk:
+Array
+(
+    [0] => http://www.capel.ac.uk/feed
+)
+
+cardiff.ac.uk:
+Array
+(
+    [0] => http://www.cardiff.ac.uk/news/rss.xml
+)
+
+carshalton.ac.uk:
+Array
+(
+    [0] => "/news.xml
+)
+
+cartoons.ac.uk:
+Array
+(
+    [0] => "/news-and-events/rss.xml
+)
+
+casaw.ac.uk:
+Array
+(
+    [0] => http://www.casaw.ac.uk/feed/
+    [1] => http://www.casaw.ac.uk/comments/feed/
+)
+
+cava.ac.uk:
+Array
+(
+    [0] => http://www.cava.ac.uk/?feed=rss2
+    [1] => http://www.cava.ac.uk/?feed=comments-rss2
+    [2] => http://www.cava.ac.uk/?feed=rss2&page_id=5
+)
+
+caw.ac.uk:
+Array
+(
+    [0] => http://www.caw.ac.uk/feed/
+    [1] => http://www.caw.ac.uk/comments/feed/
+    [2] => http://www.caw.ac.uk/home/feed/
+)
+
+ccad.ac.uk:
+Array
+(
+    [0] => http://ccad.ac.uk/feed/
+    [1] => http://ccad.ac.uk/comments/feed/
+)
+
+cchsr.ac.uk:
+Array
+(
+    [0] => http://www.cchsr.iph.cam.ac.uk/feed
+    [1] => http://www.cchsr.iph.cam.ac.uk/comments/feed
+)
+
+ccm.ac.uk:
+Array
+(
+    [0] => "/news/rss.xml/all/3%2b2%2b6%2b5%2b1%2b4
+)
+
+ccn.ac.uk:
+Array
+(
+    [0] => "/photos/feed
+    [1] => "/sitemap
+)
+
+ccri.ac.uk:
+Array
+(
+    [0] => http://www.ccri.ac.uk/feed/
+    [1] => http://www.ccri.ac.uk/comments/feed/
+)
+
+ccsr.ac.uk:
+Array
+(
+    [0] => http://farm.ccsr.ac.uk/cgi-bin/news/ccsr/rss.cgi
+)
+
+cdd.ac.uk:
+Array
+(
+    [0] => http://www.cdd.ac.uk/feed/
+    [1] => http://www.cdd.ac.uk/comments/feed/
+    [2] => http://www.cdd.ac.uk/home-page/feed/
+)
+
+cdrc.ac.uk:
+Array
+(
+    [0] => http://cdrc.ac.uk/feed/
+    [1] => http://cdrc.ac.uk/comments/feed/
+)
+
+ceda.ac.uk:
+Array
+(
+    [0] => "/blog/feeds/rss/
+)
+
+centralbeds.ac.uk:
+Array
+(
+    [0] => "/?format=feed&type=rss
+)
+
+ceoi.ac.uk:
+Array
+(
+    [0] => "/index.php?format=feed&type=rss
+)
+
+cerlim.ac.uk:
+Array
+(
+    [0] => http://www2.cerlim.ac.uk/sample-page/feed/
+    [1] => http://www2.cerlim.ac.uk/feed/
+)
+
+cetis.ac.uk:
+Array
+(
+    [0] => http://www.cetis.ac.uk/feed/
+    [1] => http://www.cetis.ac.uk/comments/feed/
+)
+
+cf.ac.uk:
+Array
+(
+    [0] => http://www.cardiff.ac.uk/news/rss.xml
+)
+
+chaucer.ac.uk:
+Array
+(
+    [0] => "/index.php?format=feed&type=rss
+)
+
+che.ac.uk:
+Array
+(
+    [0] => http://www.che.ac.uk/feed/
+    [1] => http://www.che.ac.uk/comments/feed/
+    [2] => http://www.che.ac.uk/?feed=podcast
+)
+
+city.ac.uk:
+Array
+(
+    [0] => "/news/rss/city-news
+    [1] => "/events/rss/cul-events
+)
+
+citycol.ac.uk:
+Array
+(
+    [0] => "/?format=feed&type=rss
+)
+
+citycollegepeterborough.ac.uk:
+Array
+(
+    [0] => "/feed/rss
+)
+
+cityplym.ac.uk:
+Array
+(
+    [0] => "/events/rss.xml
+    [1] => "/news/rss.xml
+)
+
+citysun.ac.uk:
+Array
+(
+    [0] => http://sunderlandcollege.ac.uk/feed/
+    [1] => http://sunderlandcollege.ac.uk/comments/feed/
+    [2] => http://sunderlandcollege.ac.uk/home/feed/
+)
+
+ciu.ac.uk:
+Array
+(
+    [0] => http://www2.warwick.ac.uk/sitebuilder2/api/rss/sitechanges.rss?page=/fac/sci/ciu
+)
+
+clad.ac.uk:
+Array
+(
+    [0] => http://www.clad.ac.uk/feed/
+    [1] => http://www.clad.ac.uk/comments/feed/
+    [2] => http://www.clad.ac.uk/home/feed/
+)
+
+clearflo.ac.uk:
+Array
+(
+    [0] => http://www.clearflo.ac.uk/feed/
+)
+
+cliffcollege.ac.uk:
+Array
+(
+    [0] => http://www.cliffcollege.ac.uk/news.rss
+    [1] => http://www.cliffcollege.ac.uk/events.rss
+    [2] => http://www.cliffcollege.ac.uk/podcast.rss
+)
+
+climate-lab-book.ac.uk:
+Array
+(
+    [0] => http://www.climate-lab-book.ac.uk/feed/
+    [1] => http://www.climate-lab-book.ac.uk/comments/feed/
+)
+
+climatechangewales.ac.uk:
+Array
+(
+    [0] => http://c3wales.org/feed/
+    [1] => http://c3wales.org/comments/feed/
+)
+
+climb.ac.uk:
+Array
+(
+    [0] => http://www.climb.ac.uk/feed/
+    [1] => http://www.climb.ac.uk/comments/feed/
+)
+
+closer.ac.uk:
+Array
+(
+    [0] => http://www.closerprogramme.co.uk/wordpress/?feed=rss2
+    [1] => http://www.closerprogramme.co.uk/wordpress/?feed=comments-rss2
+    [2] => http://www.closerprogramme.co.uk/wordpress/?feed=rss2&page_id=95
+)
+
+CLOUDWORKS.ac.uk:
+Array
+(
+    [0] => http://cloudworks.ac.uk/blog/rss
+)
+
+clt.ac.uk:
+Array
+(
+    [0] => http://www.clt.ac.uk/rss.xml
+)
+
+cnwl.ac.uk:
+Array
+(
+    [0] => http://www.cnwl.ac.uk/feed/
+    [1] => http://www.cnwl.ac.uk/comments/feed/
+    [2] => http://www.cnwl.ac.uk/home/feed/
+)
+
+co-op.ac.uk:
+Array
+(
+    [0] => http://www.co-op.ac.uk?wpsc_action=rss
+)
+
+coatbridge.ac.uk:
+Array
+(
+    [0] => "/?format=feed&type=rss
+)
+
+col-westanglia.ac.uk:
+Array
+(
+    [0] => "/blog/?feed=rss2
+)
+
+colegcymraeg.ac.uk:
+Array
+(
+    [0] => "/cy/rss/index.xml
+)
+
+colegelidyr.ac.uk:
+Array
+(
+    [0] => http://colegelidyr.com/feed/
+    [1] => http://colegelidyr.com/comments/feed/
+)
+
+coleggwyrabertawe.ac.uk:
+Array
+(
+    [0] => http://feeds.feedburner.com/gowercollegeswanseanewsandeventsrssfeed
+)
+
+collemergencymed.ac.uk:
+Array
+(
+    [0] => "/development/rss feeds
+)
+
+combinedhonours.ac.uk:
+Array
+(
+    [0] => http://combinedhonours.ac.uk/feed/
+    [1] => http://combinedhonours.ac.uk/comments/feed/
+)
+
+conel.ac.uk:
+Array
+(
+    [0] => "/?format=feed&type=rss
+)
+
+confuciusinstitute.ac.uk:
+Array
+(
+    [0] => "/../news/rss.xml
+)
+
+connect.ac.uk:
+Array
+(
+    [0] => http://www.heacademy.ac.uk/rss
+)
+
+cornell-brown-penn.ac.uk:
+Array
+(
+    [0] => http://www.cornell-brown-penn.ac.uk/feed
+    [1] => http://www.cornell-brown-penn.ac.uk/comments/feed
+)
+
+coseelis.ac.uk:
+Array
+(
+    [0] => http://coseelis.wordpress.com/feed/
+    [1] => http://coseelis.wordpress.com/comments/feed/
+)
+
+cpc.ac.uk:
+Array
+(
+    [0] => "/newslib_addons/rss.php
+)
+
+cpd25.ac.uk:
+Array
+(
+    [0] => http://www.cpd25.ac.uk/feed/
+    [1] => http://www.cpd25.ac.uk/comments/feed/
+)
+
+cphc.ac.uk:
+Array
+(
+    [0] => http://cphc.ac.uk/feed/
+    [1] => http://cphc.ac.uk/comments/feed/
+)
+
+create.ac.uk:
+Array
+(
+    [0] => http://www.create.ac.uk/feed/
+    [1] => http://www.create.ac.uk/comments/feed/
+)
+
+crest.ac.uk:
+Array
+(
+    [0] => http://crest.ac.uk/feed/
+    [1] => http://crest.ac.uk/comments/feed/
+)
+
+crick.ac.uk:
+Array
+(
+    [0] => "/home/rss
+)
+
+cronton.ac.uk:
+Array
+(
+    [0] => http://www.cronton.ac.uk/index.php/feed/
+    [1] => http://www.cronton.ac.uk/index.php/comments/feed/
+)
+
+crontonsixthform.ac.uk:
+Array
+(
+    [0] => http://www.cronton.ac.uk/index.php/feed/
+    [1] => http://www.cronton.ac.uk/index.php/comments/feed/
+)
+
+crontonsixthformcollege.ac.uk:
+Array
+(
+    [0] => http://www.cronton.ac.uk/index.php/feed/
+    [1] => http://www.cronton.ac.uk/index.php/comments/feed/
+)
+
+cros.ac.uk:
+Array
+(
+    [0] => http://www.survey.bris.ac.uk/support/feed
+    [1] => http://www.survey.bris.ac.uk/support/careers-in-research-online-survey-cros/feed
+)
+
+cserge.ac.uk:
+Array
+(
+    [0] => http://www.cserge.ac.uk/rss.xml
+)
+
+csm.ac.uk:
+Array
+(
+    [0] => http://csm.ac.uk/blog/rss/all.rss
+)
+
+cta-observatory.ac.uk:
+Array
+(
+    [0] => https://www.cta-observatory.ac.uk/?feed=rss2
+    [1] => https://www.cta-observatory.ac.uk/?feed=comments-rss2
+)
+
+ctc.ac.uk:
+Array
+(
+    [0] => http://www.ctc.ac.uk/feeds/pages.asp?pid=1
+    [1] => http://www.ctc.ac.uk/feeds/comments.asp?title=home&item=page&pid=1
+    [2] => "/feeds/news.asp?pid=4&nid=2
+)
+
+cthawards.ac.uk:
+Array
+(
+    [0] => http://www.cthawards.com/feed/
+    [1] => http://www.cthawards.com/comments/feed/
+)
+
+ctksfc.ac.uk:
+Array
+(
+    [0] => http://www.ctksfc.ac.uk/site/aquinas/news/rss
+    [1] => http://www.ctksfc.ac.uk/site/ctk/news/rss
+    [2] => http://www.ctksfc.ac.uk/site/stmarys/news/rss
+    [3] => "/rssfeeds
+)
+
+cuc.ac.uk:
+Array
+(
+    [0] => "/?format=feed&type=rss
+)
+
+cumberlandlodge.ac.uk:
+Array
+(
+    [0] => http://www.cumberlandlodge.ac.uk/home.rss?feed=ugfuzwxfrgf0yvbsywnlag9szgvymdi%3d
+    [1] => http://www.cumberlandlodge.ac.uk/home.rss?feed=ugfuzwxfrgf0yvbsywnlag9szgvymdm%3d
+)
+
+cumbernauld.ac.uk:
+Array
+(
+    [0] => "/?format=feed&type=rss
+)
+
+cumbria.ac.uk:
+Array
+(
+    [0] => http://www.cumbria.ac.uk/home.aspx?newsstandardandminicombo_standardlist_syndicationtype=1
+    [1] => http://www.cumbria.ac.uk/home.aspx?newsstandardandminicombo_minilist_syndicationtype=1
+)
+
+cvu.ac.uk:
+Array
+(
+    [0] => http://www.cvu.ac.uk/feed/
+    [1] => http://www.cvu.ac.uk/comments/feed/
+)
+
+cwa.ac.uk:
+Array
+(
+    [0] => "/blog/?feed=rss2
+)
+
+cwrc.ac.uk:
+Array
+(
+    [0] => "/news/rss.xml
+)
+
+cymru.ac.uk:
+Array
+(
+    [0] => http://www.cymru.ac.uk/en/home.aspx?newsfeaturelisting_syndicationtype=1
+    [1] => http://www.cymru.ac.uk/en/home.aspx?subnewsfeaturelist_syndicationtype=1
+    [2] => http://www.cymru.ac.uk/en/home.aspx?eventlistingitem_syndicationtype=1
+)
+
+dardcolleges.ac.uk:
+Array
+(
+    [0] => http://www.cafre.ac.uk/home/feed/
+)
+
+darwinproject.ac.uk:
+Array
+(
+    [0] => http://www.darwinproject.ac.uk/feed
+)
+
+data-archive.ac.uk:
+Array
+(
+    [0] => http://www.esds.ac.uk/news/rss.asp
+)
+
+data.ac.uk:
+Array
+(
+    [0] => "/rss.xml
+)
+
+dcc.ac.uk:
+Array
+(
+    [0] => "/rss-feeds
+)
+
+dearne-coll.ac.uk:
+Array
+(
+    [0] => http://www.dearne-coll.ac.uk/_actions/rss/feeds/handler.ashx?loid=7120176e-ef17-4143-8cca-b4adf7ba418f
+)
+
+demand.ac.uk:
+Array
+(
+    [0] => http://www.demand.ac.uk/feed/
+    [1] => http://www.demand.ac.uk/comments/feed/
+    [2] => http://www.demand.ac.uk/home/feed/
+    [3] => "/feed
+)
+
+derby-college.ac.uk:
+Array
+(
+    [0] => "/index.php?format=feed&type=rss
+)
+
+diamm.ac.uk:
+Array
+(
+    [0] => http://www.diamm.ac.uk/feed/
+    [1] => http://www.diamm.ac.uk/comments/feed/
+    [2] => http://www.diamm.ac.uk/welcome-to-diamm/feed/
+)
+
+dietandhealth.ac.uk:
+Array
+(
+    [0] => http://feeds.feedburner.com/bbsrc
+)
+
+digitallifespan.ac.uk:
+Array
+(
+    [0] => http://www.digitallifespan.org/wordpress/?feed=rss2
+    [1] => http://www.digitallifespan.org/wordpress/?feed=comments-rss2
+)
+
+dmu.ac.uk:
+Array
+(
+    [0] => http://www.dmu.ac.uk/about-dmu/news/news.aspx?newslisting_syndicationtype=1
+)
+
+dna-network.ac.uk:
+Array
+(
+    [0] => http://www.biobankingsolutions.ac.uk/home/feed/
+    [1] => http://www.biobankingsolutions.ac.uk/wp/wp-content/plugins/nextgen-gallery/xml/media-rss.php
+)
+
+dotrural.ac.uk:
+Array
+(
+    [0] => http://www.dotrural.ac.uk/dotrural/feed/
+    [1] => http://www.dotrural.ac.uk/dotrural/comments/feed/
+)
+
+dsfc.ac.uk:
+Array
+(
+    [0] => "/rss/rss.xml
+    [1] => "/holding/rssfeeds.asp
+)
+
+dst-dtc.ac.uk:
+Array
+(
+    [0] => http://www2.warwick.ac.uk/sitebuilder2/api/rss/sitechanges.rss?page=/fac/sci/dst
+)
+
+dundee.ac.uk:
+Array
+(
+    [0] => http://feeds.feedburner.com/dundeeuniversity?format=xml
+)
+
+ease.ac.uk:
+Array
+(
+    [0] => http://www2.warwick.ac.uk/sitebuilder2/api/rss/sitechanges.rss?page=/fac/soc/al/learning_english/leap
+)
+
+eastridingcollege.ac.uk:
+Array
+(
+    [0] => "/feed
+)
+
+eastscotbiodtp.ac.uk:
+Array
+(
+    [0] => http://www.eastscotbiodtp.ac.uk/rss.xml
+)
+
+economicsnetwork.ac.uk:
+Array
+(
+    [0] => "/news/econltsn.xml
+)
+
+ecu.ac.uk:
+Array
+(
+    [0] => http://www.ecu.ac.uk/news/aggregator/rss
+)
+
+ed6.ac.uk:
+Array
+(
+    [0] => http://www.ed6.ac.uk/rss.xml
+)
+
+edc.ac.uk:
+Array
+(
+    [0] => http://www.petroc.ac.uk/rss/news
+    [1] => http://www.petroc.ac.uk/rss/events
+)
+
+edgehill.ac.uk:
+Array
+(
+    [0] => http://www.edgehill.ac.uk/homepage/feed/
+    [1] => http://www.edgehill.ac.uk/homepage/comments/feed/
+    [2] => http://www.edgehill.ac.uk/homepage/homepage/feed/
+)
+
+edina.ac.uk:
+Array
+(
+    [0] => http://pipes.yahoo.com/pipes/pipe.run?_id=6becdc4abe9a4df4391a264fc79cc16f
+)
+
+eevl.ac.uk:
+Array
+(
+    [0] => http://www.eevl.ac.uk/rss/latest-news.rss
+    [1] => http://www.eevl.ac.uk/cgi-bin/new-on-eevl.rss
+    [2] => http://www.eevl.ac.uk/cgi-bin/learn-on-eevl.rss
+)
+
+eevlxtra.ac.uk:
+Array
+(
+    [0] => http://techxtranews.wordpress.com/feed/
+)
+
+efc.ac.uk:
+Array
+(
+    [0] => http://www.efc.ac.uk/news/rss
+)
+
+efetedc.ac.uk:
+Array
+(
+    [0] => http://cmslive.nottingham.ac.uk/efet/index.aspx?genericlist_syndicationtype=1
+)
+
+efficiencyexchange.ac.uk:
+Array
+(
+    [0] => http://www.efficiencyexchange.ac.uk/feed/
+    [1] => http://www.efficiencyexchange.ac.uk/comments/feed/
+    [2] => http://www.efficiencyexchange.ac.uk/home/feed/
+)
+
+ehu.ac.uk:
+Array
+(
+    [0] => http://www.edgehill.ac.uk/homepage/feed/
+    [1] => http://www.edgehill.ac.uk/homepage/comments/feed/
+    [2] => http://www.edgehill.ac.uk/homepage/homepage/feed/
+)
+
+eius.ac.uk:
+Array
+(
+    [0] => http://rss.oucs.ox.ac.uk/oucs/eius-update/rss20.xml
+)
+
+elmwood.ac.uk:
+Array
+(
+    [0] => http://www.sruc.ac.uk/rss/news
+)
+
+elsa.ac.uk:
+Array
+(
+    [0] => "/rss/news.aspx
+    [1] => "/rss/events.aspx
+)
+
+emahsn.ac.uk:
+Array
+(
+    [0] => http://cmslive.nottingham.ac.uk/emahsn/index.aspx?genericlist_syndicationtype=1
+    [1] => http://cmslive.nottingham.ac.uk/emahsn/index.aspx?schoolhomepagenews_syndicationtype=1
+)
+
+eme.ac.uk:
+Array
+(
+    [0] => http://www.nets.nihr.ac.uk/rss
+)
+
+emr.ac.uk:
+Array
+(
+    [0] => http://www.emr.ac.uk/feed/
+    [1] => http://www.emr.ac.uk/comments/feed/
+    [2] => http://www.emr.ac.uk/homepage/feed/
+)
+
+ems.ac.uk:
+Array
+(
+    [0] => "/tiki-wiki_rss.php?ver=2
+    [1] => "/tiki-calendars_rss.php?ver=2
+)
+
+energybiographies.ac.uk:
+Array
+(
+    [0] => http://energybiographies.org/feed/
+    [1] => http://energybiographies.org/comments/feed/
+    [2] => http://energybiographies.org/index/feed/
+)
+
+energyforchange.ac.uk:
+Array
+(
+    [0] => http://energyforchange.ac.uk/feed/
+    [1] => http://energyforchange.ac.uk/comments/feed/
+)
+
+engineeringnonlinearity.ac.uk:
+Array
+(
+    [0] => http://www.engineeringnonlinearity.ac.uk/feed/
+    [1] => http://www.engineeringnonlinearity.ac.uk/comments/feed/
+    [2] => http://www.engineeringnonlinearity.ac.uk/engineering-nonlinearity/feed/
+)
+
+engsc.ac.uk:
+Array
+(
+    [0] => http://www.heacademy.ac.uk/rss
+)
+
+enterpriseresearch.ac.uk:
+Array
+(
+    [0] => http://enterpriseresearch.ac.uk/home-8/feed/
+)
+
+environment-health.ac.uk:
+Array
+(
+    [0] => http://www.environment-health.ac.uk/rss.xml
+)
+
+epc.ac.uk:
+Array
+(
+    [0] => http://epc.ac.uk/feed/
+    [1] => http://epc.ac.uk/comments/feed/
+)
+
+eppi.ac.uk:
+Array
+(
+    [0] => "/mediacentre/news/feeds/rssfeed.xml
+    [1] => "/library/news/rssfeed.xml
+)
+
+epsrc.ac.uk:
+Array
+(
+    [0] => http://www.epsrc.ac.uk/tasks/feed/?feedid=ed45282b-82d3-4865-8e7f6db12f17b18f
+    [1] => http://www.epsrc.ac.uk/tasks/feed/?feedid=8c271fba-01c3-4cc9-b908354cc9d8ffeb
+    [2] => http://www.epsrc.ac.uk/tasks/feed/?feedid=c7b0e63d-52fa-4337-858777782ebe78ca
+    [3] => http://www.epsrc.ac.uk/tasks/feed/?feedid=1e62bca2-c92a-4b00-b4ea8b3dd3cdec37
+    [4] => http://www.epsrc.ac.uk/tasks/feed/?feedid=24b3a7cc-33b2-4f31-a22299b75d6a4f7f
+    [5] => http://www.epsrc.ac.uk/tasks/feed/?feedid=243fae07-f95b-459c-b1a843f241fd246a
+    [6] => http://www.epsrc.ac.uk/tasks/feed/?feedid=17bcb9c2-193d-4999-bbcefee110b71a52
+    [7] => http://www.epsrc.ac.uk/tasks/feed/?feedid=e0e64d3e-08ea-47f0-bce8104d49c40c44
+    [8] => http://www.epsrc.ac.uk/tasks/feed/?feedid=42c41d1b-cbda-4ba6-8baa59f1590e1f8e
+    [9] => "/newsevents/feeds/
+)
+
+esrc.ac.uk:
+Array
+(
+    [0] => "/rss/news-feed
+    [1] => "/rss/funding-opportunites-feed
+    [2] => "/rss-feeds.aspx
+)
+
+esrcsocietytoday.ac.uk:
+Array
+(
+    [0] => "/rss/news-feed
+    [1] => "/rss/funding-opportunites-feed
+    [2] => "/rss-feeds.aspx
+)
+
+eued.ac.uk:
+Array
+(
+    [0] => http://www.eued.ac.uk/rss.xml
+)
+
+facilities.ac.uk:
+Array
+(
+    [0] => "/j/index.php?format=feed&type=rss
+)
+
+facoccmed.ac.uk:
+Array
+(
+    [0] => http://www.fom.ac.uk/homepage/feed
+)
+
+farnborough.ac.uk:
+Array
+(
+    [0] => "/news/feed
+)
+
+farnboroughsfc.ac.uk:
+Array
+(
+    [0] => "/news/feed
+)
+
+farnham.ac.uk:
+Array
+(
+    [0] => http://www.farnham.ac.uk/farnhamcollege/home.aspx?homenewsminilisting_syndicationtype=1
+)
+
+fastech.ac.uk:
+Array
+(
+    [0] => "/index.php?format=feed&type=rss
+    [1] => "/index.php/component/k2/itemlist?format=feed&moduleid=113
+)
+
+fba.ac.uk:
+Array
+(
+    [0] => http://www.fba.org.uk/rss.xml
+)
+
+fehesorp.ac.uk:
+Array
+(
+    [0] => http://www.fehesorp.ac.uk/feed/
+    [1] => http://www.fehesorp.ac.uk/comments/feed/
+    [2] => http://www.fehesorp.ac.uk/home/feed/
+)
+
+felp.ac.uk:
+Array
+(
+    [0] => http://www.felp.ac.uk/rss.xml
+)
+
+fiscalstudies.ac.uk:
+Array
+(
+    [0] => "/rss/journal/10.1111/(issn)1475-5890
+)
+
+flavournetwork.ac.uk:
+Array
+(
+    [0] => http://www.flavournetwork.ac.uk/feed/
+    [1] => http://www.flavournetwork.ac.uk/comments/feed/
+)
+
+fmdv.ac.uk:
+Array
+(
+    [0] => http://www.fmdv.ac.uk/feed/
+    [1] => http://www.fmdv.ac.uk/comments/feed/
+    [2] => http://www.fmdv.ac.uk/home/feed/
+)
+
+fmlm.ac.uk:
+Array
+(
+    [0] => "/rss.xml
+)
+
+fom.ac.uk:
+Array
+(
+    [0] => http://www.fom.ac.uk/homepage/feed
+)
+
+foodsecurity.ac.uk:
+Array
+(
+    [0] => http://feeds.feedburner.com/foodsecuritynews
+    [1] => http://feeds.feedburner.com/foodsecurityblog
+)
+
+forthvalley.ac.uk:
+Array
+(
+    [0] => http://www.forthvalley.ac.uk/feed.xml
+)
+
+foxesacademy.ac.uk:
+Array
+(
+    [0] => http://www.foxesacademy.ac.uk/feed
+    [1] => http://www.foxesacademy.ac.uk/comments/feed
+    [2] => http://www.foxesacademy.ac.uk/sample-page/feed
+)
+
+franciscans.ac.uk:
+Array
+(
+    [0] => http://www.franciscans.ac.uk/feed
+    [1] => http://www.franciscans.ac.uk/comments/feed
+)
+
+franciscrick.ac.uk:
+Array
+(
+    [0] => "/home/rss
+)
+
+franciscrickinstitute.ac.uk:
+Array
+(
+    [0] => "/home/rss
+)
+
+freezeframe.ac.uk:
+Array
+(
+    [0] => http://www.freezeframe.ac.uk/feed
+    [1] => "/feed
+    [2] => http://www.freezeframe.ac.uk/home/home/feed
+)
+
+fsem.ac.uk:
+Array
+(
+    [0] => "/blog/rss
+)
+
+furness.ac.uk:
+Array
+(
+    [0] => http://www.furness.ac.uk/latest/feed/
+)
+
+futureukandscotland.ac.uk:
+Array
+(
+    [0] => http://www.futureukandscotland.ac.uk/rss.xml
+    [1] => "/rss.xml
+)
+
+fxplus.ac.uk:
+Array
+(
+    [0] => "/rss.xml
+)
+
+gateway.ac.uk:
+Array
+(
+    [0] => "/index.php?format=feed&type=rss
+)
+
+gcal.ac.uk:
+Array
+(
+    [0] => http://www.gcu.ac.uk/newsevents/feeds/feeds.php?s=pn
+    [1] => http://twitter.com/statuses/user_timeline/49667039.rss
+)
+
+gcs.ac.uk:
+Array
+(
+    [0] => http://feeds.feedburner.com/gowercollegeswanseanewsandeventsrssfeed
+)
+
+GCU.ac.uk:
+Array
+(
+    [0] => http://www.gcu.ac.uk/newsevents/feeds/feeds.php?s=pn
+    [1] => http://twitter.com/statuses/user_timeline/49667039.rss
+)
+
+gculondon.ac.uk:
+Array
+(
+    [0] => "/news/rss/news.xml
+)
+
+geiriadur.ac.uk:
+Array
+(
+    [0] => http://www.geiriadur.ac.uk/?feed=rss2
+    [1] => http://www.geiriadur.ac.uk/?feed=comments-rss2
+)
+
+gen2.ac.uk:
+Array
+(
+    [0] => http://www.gen2.ac.uk/feed/
+    [1] => http://www.gen2.ac.uk/comments/feed/
+)
+
+genomeanalysiscentre.ac.uk:
+Array
+(
+    [0] => http://www.tgac.ac.uk/feeds/news.rss
+
+)
+
+glasgow-caledonian.ac.uk:
+Array
+(
+    [0] => http://www.gcu.ac.uk/newsevents/feeds/feeds.php?s=pn
+    [1] => http://twitter.com/statuses/user_timeline/49667039.rss
+)
+
+glasgowkelvin.ac.uk:
+Array
+(
+    [0] => http://www.glasgowkelvin.ac.uk/feed/
+    [1] => http://www.glasgowkelvin.ac.uk/comments/feed/
+)
+
+globalshakespeare.ac.uk:
+Array
+(
+    [0] => http://www2.warwick.ac.uk/sitebuilder2/api/rss/sitechanges.rss?page=/fac/cross_fac/iatl/activities/projects/globalshakespeare
+)
+
+gorseinon.ac.uk:
+Array
+(
+    [0] => http://feeds.feedburner.com/gowercollegeswanseanewsandeventsrssfeed
+)
+
+gower.ac.uk:
+Array
+(
+    [0] => http://feeds.feedburner.com/gowercollegeswanseanewsandeventsrssfeed
+)
+
+gowercollege.ac.uk:
+Array
+(
+    [0] => http://feeds.feedburner.com/gowercollegeswanseanewsandeventsrssfeed
+)
+
+gowercollegeswansea.ac.uk:
+Array
+(
+    [0] => http://feeds.feedburner.com/gowercollegeswanseanewsandeventsrssfeed
+)
+
+grace.ac.uk:
+Array
+(
+    [0] => http://www.nottingham.ac.uk/grace/index.aspx?schoolhomeimagerotate_syndicationtype=1
+    [1] => http://www.nottingham.ac.uk/grace/index.aspx?schoolhomepagenews_syndicationtype=1
+    [2] => http://www.nottingham.ac.uk/grace/index.aspx?schoolhomepageevents_standardlist_syndicationtype=1
+    [3] => http://www.nottingham.ac.uk/grace/index.aspx?schoolhomepageevents_minilist_syndicationtype=1
+)
+
+grantham.ac.uk:
+Array
+(
+    [0] => http://www.grantham.ac.uk/homepage/feed
+)
+
+greatermanchesterbiobankingnetwork.ac.uk:
+Array
+(
+    [0] => http://feed.mikle.com/
+)
+
+gresham-college.ac.uk:
+Array
+(
+    [0] => "/lectures-and-events/feed
+)
+
+gresham.ac.uk:
+Array
+(
+    [0] => "/lectures-and-events/feed
+)
+
+greshamcollege.ac.uk:
+Array
+(
+    [0] => "/lectures-and-events/feed
+)
+
+gridpp.ac.uk:
+Array
+(
+    [0] => http://www.gridpp.ac.uk/news/?feed=rss2
+)
+
+guildhe.ac.uk:
+Array
+(
+    [0] => http://guildhe.ac.uk/feed
+    [1] => http://guildhe.ac.uk/comments/feed
+    [2] => http://guildhe.ac.uk/sample-page/feed
+)
+
+gw4.ac.uk:
+Array
+(
+    [0] => http://gw4.ac.uk/homepage/feed/
+)
+
+halesowen.ac.uk:
+Array
+(
+    [0] => "/docs/hcnews.xml
+)
+
+haringey6.ac.uk:
+Array
+(
+    [0] => http://www.haringey6.ac.uk/feed/
+    [1] => http://www.haringey6.ac.uk/comments/feed/
+)
+
+harrow.ac.uk:
+Array
+(
+    [0] => "/?format=feed&type=rss
+    [1] => "/component/obrss/1-harrow-college-news.html
+)
+
+havant.ac.uk:
+Array
+(
+    [0] => "/rss.php
+)
+
+heacademy.ac.uk:
+Array
+(
+    [0] => http://www.heacademy.ac.uk/rss
+)
+
+health.ac.uk:
+Array
+(
+    [0] => http://www.heacademy.ac.uk/rss
+)
+
+healthcare.ac.uk:
+Array
+(
+    [0] => "/pressoffice/newsfeed/index.xml
+)
+
+heated.ac.uk:
+Array
+(
+    [0] => https://www.heated.ac.uk/feed/
+    [1] => https://www.heated.ac.uk/comments/feed/
+)
+
+hebcon.ac.uk:
+Array
+(
+    [0] => http://www.hebcon.org/feed/
+    [1] => http://www.hebcon.org/comments/feed/
+    [2] => http://www.hebcon.org/home/feed/
+)
+
+hebetterregulation.ac.uk:
+Array
+(
+    [0] => "/_layouts/feed.aspx?xsl=1&web=%2fnewseventspublications%2fnews&page=33bc0c6c-ca86-40c7-8da0-e6a32db6583b&wp=87dd2708-431e-42e1-a7cc-5d2bb86161f5
+)
+
+hecbiosim.ac.uk:
+Array
+(
+    [0] => "/index.php?format=feed&type=rss
+)
+
+hector.ac.uk:
+Array
+(
+    [0] => http://www.hector.ac.uk/feeds/news.xml
+)
+
+hediip.ac.uk:
+Array
+(
+    [0] => http://www.hediip.ac.uk/feed/
+    [1] => http://www.hediip.ac.uk/comments/feed/
+)
+
+hedip.ac.uk:
+Array
+(
+    [0] => http://www.hediip.ac.uk/feed/
+    [1] => http://www.hediip.ac.uk/comments/feed/
+)
+
+hefce.ac.uk:
+Array
+(
+    [0] => http://www.hefce.ac.uk/feed/news.xml
+    [1] => "/pubs/subscribetorssfeeds/
+)
+
+heia.ac.uk:
+Array
+(
+    [0] => http://www.stratford.ac.uk/international/home.aspx?newsstandardandminicombo_standardlist_syndicationtype=1
+    [1] => http://www.stratford.ac.uk/international/home.aspx?newsstandardandminicombo_minilist_syndicationtype=1
+)
+
+helf.ac.uk:
+Array
+(
+    [0] => http://helfuk.blogspot.com/feeds/posts/default?alt=rss
+)
+
+heloa.ac.uk:
+Array
+(
+    [0] => http://www.heloa.ac.uk/feed/
+    [1] => http://www.heloa.ac.uk/comments/feed/
+    [2] => http://www.heloa.ac.uk/home/feed/
+)
+
+henshaws.ac.uk:
+Array
+(
+    [0] => http://henshaws.org.uk/feed/
+    [1] => http://henshaws.org.uk/comments/feed/
+    [2] => http://henshaws.org.uk/what-we-offer/college/feed/
+)
+
+hepa.ac.uk:
+Array
+(
+    [0] => "/resources/documents/?s=mercer ucrss 
+)
+
+hepcw.ac.uk:
+Array
+(
+    [0] => http://www.hepcw.ac.uk/feed/
+    [1] => http://www.hepcw.ac.uk/comments/feed/
+)
+
+hepi.ac.uk:
+Array
+(
+    [0] => "/feed/
+    [1] => http://www.hepi.ac.uk/home/feed/
+)
+
+herc.ac.uk:
+Array
+(
+    [0] => http://www.herc.ac.uk/feed/
+    [1] => http://www.herc.ac.uk/comments/feed/
+    [2] => http://www.herc.ac.uk/sample-page-2/feed/
+)
+
+hereward.ac.uk:
+Array
+(
+    [0] => "/index.php?format=feed&type=rss
+)
+
+hew.ac.uk:
+Array
+(
+    [0] => http://www.hew.ac.uk/feed/
+)
+
+hiddenhistoriesWWI.ac.uk:
+Array
+(
+    [0] => http://blogs.nottingham.ac.uk/feed/
+    [1] => http://blogs.nottingham.ac.uk/comments/feed/
+)
+
+higher-education.ac.uk:
+Array
+(
+    [0] => http://www.kent.ac.uk/news/rss.html
+    [1] => http://www.kent.ac.uk/research/rss.html
+    [2] => http://www.kent.ac.uk/news/comment/rss.html
+    [3] => http://www.kent.ac.uk/student/rss.html
+    [4] => http://www.kent.ac.uk/campusonline/updates/rss.html
+    [5] => http://www.kent.ac.uk/campusonline/people/rss.html
+    [6] => "/news/rss/
+)
+
+highlands.ac.uk:
+Array
+(
+    [0] => http://www.highlands.ac.uk/feed/
+    [1] => http://www.highlands.ac.uk/comments/feed/
+)
+
+hinwickhall.ac.uk:
+Array
+(
+    [0] => http://www.hinwickhallcollege.co.uk/feed/
+    [1] => http://www.hinwickhallcollege.co.uk/comments/feed/
+)
+
+historysubjectcentre.ac.uk:
+Array
+(
+    [0] => http://www2.warwick.ac.uk/sitebuilder2/api/rss/sitechanges.rss?page=/fac/cross_fac/heahistory
+)
+
+hpc-midlands.ac.uk:
+Array
+(
+    [0] => http://hpc-midlands.ac.uk/feed/
+    [1] => http://hpc-midlands.ac.uk/comments/feed/
+    [2] => http://hpc-midlands.ac.uk/sample-page-2/feed/
+)
+
+hpc-sc.ac.uk:
+Array
+(
+    [0] => http://www2.warwick.ac.uk/sitebuilder2/api/rss/sitechanges.rss?page=/fac/cross_fac/hpc-sc
+)
+
+hpc-uk.ac.uk:
+Array
+(
+    [0] => http://www.epcc.ed.ac.uk/rss.xml
+)
+
+hpci.ac.uk:
+Array
+(
+    [0] => http://www.epcc.ed.ac.uk/rss.xml
+)
+
+hrc.ac.uk:
+Array
+(
+    [0] => http://www.hrc.ac.uk/feed/
+    [1] => http://www.hrc.ac.uk/comments/feed/
+    [2] => http://www.hrc.ac.uk/home/feed/
+)
+
+hrionline.ac.uk:
+Array
+(
+    [0] => http://hridigital.shef.ac.uk/feed
+    [1] => http://hridigital.shef.ac.uk/comments/feed
+    [2] => http://hridigital.shef.ac.uk/hrionline/feed
+)
+
+hss.ac.uk:
+Array
+(
+    [0] => "/index.php?format=feed&type=rss
+)
+
+hta.ac.uk:
+Array
+(
+    [0] => http://www.nets.nihr.ac.uk/rss
+)
+
+hughbaird.ac.uk:
+Array
+(
+    [0] => "/index.php?format=feed&type=rss
+)
+
+humanmind.ac.uk:
+Array
+(
+    [0] => http://humanmind.ac.uk/feed/
+    [1] => http://humanmind.ac.uk/comments/feed/
+)
+
+hutton.ac.uk:
+Array
+(
+    [0] => "/rss/
+)
+
+iagp.ac.uk:
+Array
+(
+    [0] => http://www.iagp.ac.uk/rss.xml
+)
+
+iapetus.ac.uk:
+Array
+(
+    [0] => http://www.iapetus.ac.uk/?feed=rss2
+    [1] => http://www.iapetus.ac.uk/?feed=comments-rss2
+)
+
+iccliverpool.ac.uk:
+Array
+(
+    [0] => http://iccliverpool.ac.uk/feed/
+    [1] => http://iccliverpool.ac.uk/comments/feed/
+)
+
+icm.ac.uk:
+Array
+(
+    [0] => http://icm.ac.uk/feed/
+    [1] => http://icm.ac.uk/comments/feed/
+    [2] => http://icm.ac.uk/home/feed/
+)
+
+icma.ac.uk:
+Array
+(
+    [0] => http://www.icmacentre.ac.uk/feed
+    [1] => http://www.icmacentre.ac.uk/comments/feed
+    [2] => http://www.icmacentre.ac.uk/index/feed
+)
+
+icmacentre.ac.uk:
+Array
+(
+    [0] => http://www.icmacentre.ac.uk/feed
+    [1] => http://www.icmacentre.ac.uk/comments/feed
+    [2] => http://www.icmacentre.ac.uk/index/feed
+)
+
+icr.ac.uk:
+Array
+(
+    [0] => http://www.icr.ac.uk/rss.xml
+)
+
+idras.ac.uk:
+Array
+(
+    [0] => http://www.idras.ac.uk/feed/
+    [1] => http://www.idras.ac.uk/comments/feed/
+)
+
+iis.ac.uk:
+Array
+(
+    [0] => "/rss.xml
+)
+
+ima.ac.uk:
+Array
+(
+    [0] => http://ima.ac.uk/feed/
+    [1] => http://ima.ac.uk/comments/feed/
+)
+
+impact-hei.ac.uk:
+Array
+(
+    [0] => "/linkclick.aspx?link=http%3a%2f%2fwww.impact-hei.ac.uk%2fdesktopmodules%2fdnnforge%2520-%2520newsarticles%2frss.aspx%3ftabid%3d2969%26amp%3bmoduleid%3d5401%26amp%3bmaxcount%3d25&tabid=325&mid=9577
+)
+
+impact.ac.uk:
+Array
+(
+    [0] => http://impact.ac.uk/feed/
+    [1] => http://impact.ac.uk/comments/feed/
+    [2] => http://impact.ac.uk/home/feed/
+)
+
+imr-cdt.ac.uk:
+Array
+(
+    [0] => http://www2.warwick.ac.uk/sitebuilder2/api/rss/sitechanges.rss?page=/fac/sci/physics/research/condensedmatt/imr_cdt
+)
+
+inquisitionspostmortem.ac.uk:
+Array
+(
+    [0] => http://blog.inquisitionspostmortem.ac.uk/feed/
+    [1] => http://blog.inquisitionspostmortem.ac.uk/comments/feed/
+    [2] => http://blog.inquisitionspostmortem.ac.uk/home/feed/
+)
+
+institutionofelectronics.ac.uk:
+Array
+(
+    [0] => http://institutionofelectronics.ac.uk/feed/
+)
+
+ioe.ac.uk:
+Array
+(
+    [0] => "/rss.xml
+    [1] => http://www.ioe.ac.uk/sitehelp/39588.html
+)
+
+ipv6.ac.uk:
+Array
+(
+    [0] => http://blog.soton.ac.uk/ipv6/feed/
+    [1] => http://blog.soton.ac.uk/ipv6/feed/rss/
+    [2] => http://blog.soton.ac.uk/ipv6/comments/feed/
+)
+
+irh.ac.uk:
+Array
+(
+    [0] => http://www.irh.ac.uk/feed/
+    [1] => http://www.irh.ac.uk/comments/feed/
+)
+
+islam-anatolia.ac.uk:
+Array
+(
+    [0] => https://www.islam-anatolia.ac.uk/?feed=rss2
+    [1] => https://www.islam-anatolia.ac.uk/?feed=comments-rss2
+)
+
+istar.ac.uk:
+Array
+(
+    [0] => http://www.istar.ac.uk/feed/
+    [1] => http://www.istar.ac.uk/comments/feed/
+)
+
+itutility.ac.uk:
+Array
+(
+    [0] => http://www.itutility.ac.uk/feed/
+    [1] => http://www.itutility.ac.uk/comments/feed/
+    [2] => http://www.itutility.ac.uk/home-2/feed/
+)
+
+iucr.ac.uk:
+Array
+(
+    [0] => http://www.iucr.org/news/rss-feeds
+)
+
+jameswatt.ac.uk:
+Array
+(
+    [0] => "/rss/rss.xml
+)
+
+jisc-collections.ac.uk:
+Array
+(
+    [0] => "/rss/rss-events/
+    [1] => "/rss/rss-news/
+)
+
+jisc-mau.ac.uk:
+Array
+(
+    [0] => http://www.kent.ac.uk/news/rss.html
+    [1] => http://www.kent.ac.uk/research/rss.html
+    [2] => http://www.kent.ac.uk/news/comment/rss.html
+    [3] => http://www.kent.ac.uk/student/rss.html
+    [4] => http://www.kent.ac.uk/campusonline/updates/rss.html
+    [5] => http://www.kent.ac.uk/campusonline/people/rss.html
+    [6] => "/news/rss/
+)
+
+jisc.ac.uk:
+Array
+(
+    [0] => http://feeds.feedburner.com/jiscblog
+    [1] => http://feeds2.feedburner.com/ac/uabg
+    [2] => http://feeds2.feedburner.com/ac/toxu
+    [3] => http://feeds.feedburner.com/jiscjobvacancieswebfeed
+    [4] => http://feeds.feedburner.com/jiscpodcast
+)
+
+jiscadvance.ac.uk:
+Array
+(
+    [0] => http://feeds.feedburner.com/jiscblog
+    [1] => http://feeds2.feedburner.com/ac/uabg
+    [2] => http://feeds2.feedburner.com/ac/toxu
+    [3] => http://feeds.feedburner.com/jiscjobvacancieswebfeed
+    [4] => http://feeds.feedburner.com/jiscpodcast
+)
+
+jisccollections.ac.uk:
+Array
+(
+    [0] => "/rss/rss-events/
+    [1] => "/rss/rss-news/
+)
+
+jiscecollections.ac.uk:
+Array
+(
+    [0] => http://www.jiscecollections.ac.uk/feed/
+    [1] => http://www.jiscecollections.ac.uk/comments/feed/
+    [2] => http://www.jiscecollections.ac.uk/home/feed/
+)
+
+jiscinfonet.ac.uk:
+Array
+(
+    [0] => http://www.jiscinfonet.ac.uk/feed/?post_type=blog
+)
+
+jisclegal.ac.uk:
+Array
+(
+    [0] => http://www.jisclegal.ac.uk/desktopmodules/dnnforge%20-%20newsarticles/rss.aspx?tabid=243&moduleid=585&categoryid=15&maxcount=10000&sortby=startdate&sortdirection=desc
+)
+
+jiscmail.ac.uk:
+Array
+(
+    [0] => https://www.jiscmail.ac.uk/cgi-bin/webadmin?rss&l=jiscmail-newsletter&v=2.0
+)
+
+johnruskin.ac.uk:
+Array
+(
+    [0] => http://www.johnruskin.ac.uk/feed/
+    [1] => http://www.johnruskin.ac.uk/comments/feed/
+    [2] => http://www.johnruskin.ac.uk/home/feed/
+)
+
+josephwright6form.ac.uk:
+Array
+(
+    [0] => "/index.php?format=feed&type=rss
+)
+
+jubileecentre.ac.uk:
+Array
+(
+    [0] => "/media/feed/news/
+)
+
+justincraig.ac.uk:
+Array
+(
+    [0] => "/rss/blogs.aspx?blogid=13
+    [1] => "/rss/blogs.aspx?blogid=15
+    [2] => "/rss/blogs.aspx?blogid=12
+    [3] => "/rss/blogs.aspx?blogid=26
+    [4] => "/rss/blogs.aspx?blogid=14
+)
+
+kcc.ac.uk:
+Array
+(
+    [0] => "/news/rss.php
+)
+
+kcl.ac.uk:
+Array
+(
+    [0] => http://www.kcl.ac.uk/newsevents/index.aspx?newslisting_syndicationtype=1
+)
+
+kecnuneaton.ac.uk:
+Array
+(
+    [0] => http://kecnuneaton.ac.uk/feed/
+    [1] => http://kecnuneaton.ac.uk/comments/feed/
+    [2] => http://kecnuneaton.ac.uk/home/feed/
+)
+
+keele.ac.uk:
+Array
+(
+    [0] => http://www.keele.ac.uk/rss/news/index.xml
+)
+
+kent.ac.uk:
+Array
+(
+    [0] => http://www.kent.ac.uk/news/rss.html
+    [1] => http://www.kent.ac.uk/research/rss.html
+    [2] => http://www.kent.ac.uk/news/comment/rss.html
+    [3] => http://www.kent.ac.uk/student/rss.html
+    [4] => http://www.kent.ac.uk/campusonline/updates/rss.html
+    [5] => http://www.kent.ac.uk/campusonline/people/rss.html
+    [6] => "/news/rss/
+)
+
+king.ac.uk:
+Array
+(
+    [0] => "/pressoffice/newsfeed/index.xml
+)
+
+kings.ac.uk:
+Array
+(
+    [0] => http://www.kcl.ac.uk/newsevents/index.aspx?newslisting_syndicationtype=1
+)
+
+kingston.ac.uk:
+Array
+(
+    [0] => "/pressoffice/newsfeed/index.xml
+)
+
+knowsleycollege.ac.uk:
+Array
+(
+    [0] => "/rss.xml
+)
+
+lakescollegewestcumbria.ac.uk:
+Array
+(
+    [0] => "/?format=feed&type=rss
+)
+
+lambeth.ac.uk:
+Array
+(
+    [0] => "/news.xml
+)
+
+lambethcollege.ac.uk:
+Array
+(
+    [0] => "/news.xml
+)
+
+landmap.ac.uk:
+Array
+(
+    [0] => "/index.php/feed/rss
+)
+
+landmarks.ac.uk:
+Array
+(
+    [0] => http://www.landmarks.ac.uk/?feed=rss2
+    [1] => http://www.landmarks.ac.uk/?feed=comments-rss2
+    [2] => http://www.landmarks.ac.uk/?feed=rss2&page_id=10
+)
+
+landscape.ac.uk:
+Array
+(
+    [0] => http://cmslive.nottingham.ac.uk/landscape/index.aspx?schoolhomeimagerotate_syndicationtype=1
+)
+
+languagesmythsfinds.ac.uk:
+Array
+(
+    [0] => http://languagesmythsfinds.ac.uk/feed/
+    [1] => http://languagesmythsfinds.ac.uk/comments/feed/
+)
+
+lboro.ac.uk:
+Array
+(
+    [0] => http://www.lboro.ac.uk/news-events/rss/index.xml
+    [1] => http://www.lboro.ac.uk/news-events/events/rss/index.xml
+)
+
+lcirah.ac.uk:
+Array
+(
+    [0] => http://lcirah.ac.uk/rss.xml 
+)
+
+lcwc.ac.uk:
+Array
+(
+    [0] => "/?format=feed&type=rss
+)
+
+learningmathsonline.ac.uk:
+Array
+(
+    [0] => http://learningmathsonline.ac.uk/wp/feed/
+    [1] => http://learningmathsonline.ac.uk/wp/comments/feed/
+    [2] => http://learningmathsonline.ac.uk/wp/m/feed/
+)
+
+learnportsmouth.ac.uk:
+Array
+(
+    [0] => http://www.learnportsmouth.ac.uk/feed/
+    [1] => http://www.learnportsmouth.ac.uk/comments/feed/
+    [2] => http://www.learnportsmouth.ac.uk/sample-page/feed/
+)
+
+learnsafl.ac.uk:
+Array
+(
+    [0] => "/index.php?format=feed&type=rss
+)
+
+lec.ac.uk:
+Array
+(
+    [0] => http://www.leicestercollege.ac.uk/feed/
+    [1] => http://www.leicestercollege.ac.uk/comments/feed/
+)
+
+leeds.ac.uk:
+Array
+(
+    [0] => http://www.leeds.ac.uk/rss/news
+)
+
+leedscitycollege.ac.uk:
+Array
+(
+    [0] => http://www.leedscitycollege.ac.uk/index.php/feed/
+)
+
+leedsd.ac.uk:
+Array
+(
+    [0] => http://www.leeds.ac.uk/rss/news
+)
+
+leicestercollege.ac.uk:
+Array
+(
+    [0] => http://www.leicestercollege.ac.uk/feed/
+    [1] => http://www.leicestercollege.ac.uk/comments/feed/
+)
+
+lesoco.ac.uk:
+Array
+(
+    [0] => "/rssfeed
+)
+
+lewisham.ac.uk:
+Array
+(
+    [0] => "/rssfeed
+)
+
+leyton.ac.uk:
+Array
+(
+    [0] => http://www.leyton.ac.uk/index.cfm/feed/rss
+)
+
+linkage.ac.uk:
+Array
+(
+    [0] => http://www.linkage.org.uk/feed/
+    [1] => http://www.linkage.org.uk/comments/feed/
+)
+
+linkinglondon.ac.uk:
+Array
+(
+    [0] => http://www.linkinglondon.ac.uk/news/aggregator/rss
+    [1] => "/events/aggregator/rss
+)
+
+liparm.ac.uk:
+Array
+(
+    [0] => http://www.liparm.ac.uk/?feed=rss2
+    [1] => http://www.liparm.ac.uk/?feed=comments-rss2
+)
+
+litr.ac.uk:
+Array
+(
+    [0] => http://litr.ac.uk/feed/
+    [1] => http://litr.ac.uk/comments/feed/
+    [2] => http://litr.ac.uk/home/feed/
+)
+
+live.ac.uk:
+Array
+(
+    [0] => "/rss?projection=64
+)
+
+lkl.ac.uk:
+Array
+(
+    [0] => http://www.lkl.ac.uk/cms/index.php?option=com_eventscalrss&feed=rss2.0&no_html=1
+)
+
+llandrillo.ac.uk:
+Array
+(
+    [0] => http://www.llandrillo.ac.uk/feed/
+    [1] => http://www.llandrillo.ac.uk/comments/feed/
+    [2] => http://www.llandrillo.ac.uk/home/feed/
+)
+
+llas.ac.uk:
+Array
+(
+    [0] => "/feeds/rssinfo.html
+)
+
+lmbru.ac.uk:
+Array
+(
+    [0] => http://lmbru.leeds.ac.uk/feed/
+)
+
+lockssalliance.ac.uk:
+Array
+(
+    [0] => http://www.lockssalliance.ac.uk/feed/
+    [1] => http://www.lockssalliance.ac.uk/comments/feed/
+)
+
+lolo.ac.uk:
+Array
+(
+    [0] => "/newsandevents/rss
+)
+
+londonhigher.ac.uk:
+Array
+(
+    [0] => http://www.londonhigher.ac.uk/399.html
+)
+
+longley-park.ac.uk:
+Array
+(
+    [0] => http://www.longleypark.ac.uk/homepage/feed/
+)
+
+longley-parksfc.ac.uk:
+Array
+(
+    [0] => http://www.longleypark.ac.uk/homepage/feed/
+)
+
+longleypark.ac.uk:
+Array
+(
+    [0] => http://www.longleypark.ac.uk/homepage/feed/
+)
+
+longleyparkcollege.ac.uk:
+Array
+(
+    [0] => http://www.longleypark.ac.uk/homepage/feed/
+)
+
+longleyparksfc.ac.uk:
+Array
+(
+    [0] => http://www.longleypark.ac.uk/homepage/feed/
+)
+
+longleyparksixthformcollege.ac.uk:
+Array
+(
+    [0] => http://www.longleypark.ac.uk/homepage/feed/
+)
+
+longroad.ac.uk:
+Array
+(
+    [0] => http://www.longroad.ac.uk/feed/
+    [1] => http://www.longroad.ac.uk/comments/feed/
+)
+
+lonklab.ac.uk:
+Array
+(
+    [0] => http://www.lkl.ac.uk/cms/index.php?option=com_eventscalrss&feed=rss2.0&no_html=1
+)
+
+lonoco.ac.uk:
+Array
+(
+    [0] => http://www.lonoco.ac.uk/www1/?feed=rss2
+    [1] => http://www.lonoco.ac.uk/www1/?feed=comments-rss2
+)
+
+loreto.ac.uk:
+Array
+(
+    [0] => http://www.loreto.ac.uk/rss.xml
+)
+
+loucoll.ac.uk:
+Array
+(
+    [0] => http://www.loucoll.ac.uk/rss.xml
+)
+
+loughborough.ac.uk:
+Array
+(
+    [0] => http://www.lboro.ac.uk/news-events/rss/index.xml
+    [1] => http://www.lboro.ac.uk/news-events/events/rss/index.xml
+)
+
+lowestoftsfc.ac.uk:
+Array
+(
+    [0] => http://www.lowestoftsfc.ac.uk/index.php/rss
+)
+
+lshtm.ac.uk:
+Array
+(
+    [0] => "/newsevents/news/rss/rss.xml
+)
+
+lsjs.ac.uk:
+Array
+(
+    [0] => http://www.lsjs.ac.uk/home/feed/
+)
+
+lsrnw.ac.uk:
+Array
+(
+    [0] => http://www.lsrnw.ac.uk/feed/
+    [1] => http://www.lsrnw.ac.uk/comments/feed/
+)
+
+lstmed.ac.uk:
+Array
+(
+    [0] => http://www.lstmed.ac.uk/about-lstm/news-and-media/press-releases/lstm-press-releases
+    [1] => http://www.lstmed.ac.uk/about-lstm/news-and-media/latest-news/lstm-news-features
+    [2] => http://www.lstmed.ac.uk/working-with-us/human-resources/current-vacancies/lstm-jobs
+)
+
+lstmliverpool.ac.uk:
+Array
+(
+    [0] => http://www.lstmed.ac.uk/about-lstm/news-and-media/press-releases/lstm-press-releases
+    [1] => http://www.lstmed.ac.uk/about-lstm/news-and-media/latest-news/lstm-news-features
+    [2] => http://www.lstmed.ac.uk/working-with-us/human-resources/current-vacancies/lstm-jobs
+)
+
+ltsn-01.ac.uk:
+Array
+(
+    [0] => http://www.ltsn-01.ac.uk/feeds/
+    [1] => "/feeds/
+)
+
+ludlow-college.ac.uk:
+Array
+(
+    [0] => "/rss
+)
+
+lut.ac.uk:
+Array
+(
+    [0] => http://www.lboro.ac.uk/news-events/rss/index.xml
+    [1] => http://www.lboro.ac.uk/news-events/events/rss/index.xml
+)
+
+luton-acl.ac.uk:
+Array
+(
+    [0] => "/index.php?format=feed&type=rss
+)
+
+lutonacl.ac.uk:
+Array
+(
+    [0] => "/index.php?format=feed&type=rss
+)
+
+m25lib.ac.uk:
+Array
+(
+    [0] => http://www.m25lib.ac.uk/feed/
+    [1] => http://www.m25lib.ac.uk/comments/feed/
+)
+
+mackworth-college.ac.uk:
+Array
+(
+    [0] => "/index.php?format=feed&type=rss
+)
+
+maec.ac.uk:
+Array
+(
+    [0] => http://www.maec.ac.uk/feed/
+    [1] => http://www.maec.ac.uk/comments/feed/
+)
+
+mahsc.ac.uk:
+Array
+(
+    [0] => http://www.mahsc.ac.uk/home/feed/
+)
+
+man.ac.uk:
+Array
+(
+    [0] => http://www.manchester.ac.uk/rss/
+)
+
+manchester.ac.uk:
+Array
+(
+    [0] => http://www.manchester.ac.uk/rss/
+)
+
+manchesterjmce.ac.uk:
+Array
+(
+    [0] => http://www.manchesterjmce.ac.uk/feed/
+    [1] => http://www.manchesterjmce.ac.uk/comments/feed/
+)
+
+manchesternti.ac.uk:
+Array
+(
+    [0] => "/news/rss.xml/all/3%2b2%2b6%2b5%2b1%2b4
+)
+
+marlab.ac.uk:
+Array
+(
+    [0] => http://scottishgovernment.presscentre.com/rss/default.aspx?feedid={16206111-2f33-48fb-88c4-a22f00ed6bcb}
+    [1] => http://blogs.scotland.gov.uk/coastal-monitoring/rss
+    [2] => http://www.scotland.gov.uk/rss/publications/384.xml
+)
+
+marywardcentre.ac.uk:
+Array
+(
+    [0] => http://www.marywardcentre.ac.uk/home/feed/
+)
+
+mathstore.ac.uk:
+Array
+(
+    [0] => http://www.mathstore.ac.uk/?q=rss.xml
+)
+
+mctimoney-college.ac.uk:
+Array
+(
+    [0] => http://www.mctimoney-college.ac.uk/feed/
+    [1] => http://www.mctimoney-college.ac.uk/comments/feed/
+)
+
+mede-innovation.ac.uk:
+Array
+(
+    [0] => http://mede-innovation.ac.uk/home/feed/
+)
+
+medev.ac.uk:
+Array
+(
+    [0] => http://www.medev.ac.uk/feeds/
+    [1] => "/feeds/
+)
+
+megs.ac.uk:
+Array
+(
+    [0] => http://cmslive.nottingham.ac.uk/megs/index.aspx?schoolhomepageevents_standardlist_syndicationtype=1
+    [1] => http://cmslive.nottingham.ac.uk/megs/index.aspx?schoolhomepageevents_minilist_syndicationtype=1
+    [2] => http://cmslive.nottingham.ac.uk/megs/index.aspx?videolist_syndicationtype=1
+    [3] => http://cmslive.nottingham.ac.uk/megs/index.aspx?schoolhomepagenews_syndicationtype=1
+)
+
+merristwood.ac.uk:
+Array
+(
+    [0] => http://www.merristwood.ac.uk/merristwoodcollege/home.aspx?homenewsminilisting_syndicationtype=1
+)
+
+merthyr.ac.uk:
+Array
+(
+    [0] => http://www.merthyr.ac.uk/rss.xml
+)
+
+mic.ac.uk:
+Array
+(
+    [0] => "/index.php?format=feed&type=rss
+)
+
+mid-career-college.ac.uk:
+Array
+(
+    [0] => "/index.php?format=feed&type=rss
+)
+
+midchesh.ac.uk:
+Array
+(
+    [0] => "/rss.xml
+)
+
+midkent.ac.uk:
+Array
+(
+    [0] => http://www.midkent.ac.uk/rss
+)
+
+midlands3cities.ac.uk:
+Array
+(
+    [0] => http://cmslive.nottingham.ac.uk/midlands-3-cities/index.aspx?schoolhomepagenews_syndicationtype=1
+    [1] => http://cmslive.nottingham.ac.uk/midlands-3-cities/index.aspx?schoolhomepageevents_standardlist_syndicationtype=1
+    [2] => http://cmslive.nottingham.ac.uk/midlands-3-cities/index.aspx?schoolhomepageevents_minilist_syndicationtype=1
+)
+
+midplus.ac.uk:
+Array
+(
+    [0] => http://www2.warwick.ac.uk/sitebuilder2/api/rss/sitechanges.rss?page=/fac/cross_fac/midplus
+)
+
+mimas.ac.uk:
+Array
+(
+    [0] => http://mimas.ac.uk/feed/
+    [1] => http://mimas.ac.uk/comments/feed/
+    [2] => http://mimas.ac.uk/home/feed/
+)
+
+mist.ac.uk:
+Array
+(
+    [0] => "/index.php?format=feed&type=rss
+)
+
+mmu.ac.uk:
+Array
+(
+    [0] => http://feeds.feedburner.com/mmu-news
+    [1] => http://feeds.feedburner.com/mmu-events
+)
+
+modmedmicro.ac.uk:
+Array
+(
+    [0] => http://modmedmicro.nsms.ox.ac.uk/feed/
+    [1] => http://modmedmicro.nsms.ox.ac.uk/comments/feed/
+    [2] => http://modmedmicro.nsms.ox.ac.uk/home/feed/
+)
+
+moorlands.ac.uk:
+Array
+(
+    [0] => http://www.moorlands.ac.uk/student-zone-welcome/student-zone/audio-library/?podcast
+)
+
+moredun.ac.uk:
+Array
+(
+    [0] => "/rss
+)
+
+morleycollege.ac.uk:
+Array
+(
+    [0] => http://www.morleycollege.ac.uk/feed.xml
+)
+
+motherwell.ac.uk:
+Array
+(
+    [0] => "/?format=feed&type=rss
+)
+
+moulton.ac.uk:
+Array
+(
+    [0] => "/rss-feeds/news
+    [1] => "/rss-feeds/events
+)
+
+mrc.ac.uk:
+Array
+(
+    [0] => http://www.mrc.ac.uk/tasks/feed/?feedid=39408b93-1237-4f9b-842cb2e25d037f72
+    [1] => http://www.mrc.ac.uk/tasks/feed/?feedid=a30c5901-a3ab-4aca-acdcfc58a1aa2e05
+    [2] => http://www.mrc.ac.uk/tasks/feed/?feedid=60016b71-a543-4908-8b9c0082e4f27bf0
+    [3] => http://www.mrc.ac.uk/tasks/feed/?feedid=0ad905b6-ed58-49e8-80faa4f722b5f746
+)
+
+mrcollege.ac.uk:
+Array
+(
+    [0] => http://mrcollege.ac.uk/feed/
+    [1] => http://mrcollege.ac.uk/comments/feed/
+)
+
+murg.ac.uk:
+Array
+(
+    [0] => http://www.murg.ac.uk/index.php/feed/
+    [1] => http://www.murg.ac.uk/index.php/comments/feed/
+)
+
+museumwales.ac.uk:
+Array
+(
+    [0] => "/xml/?content=feeds:news
+    [1] => "/xml/?content=feeds:events
+    [2] => "/xml/?content=feeds:jobs
+)
+
+musicandphilosophy.ac.uk:
+Array
+(
+    [0] => http://www.musicandphilosophy.ac.uk/feed/
+    [1] => http://www.musicandphilosophy.ac.uk/comments/feed/
+    [2] => http://www.musicandphilosophy.ac.uk/home/feed/
+)
+
+muslimcollege.ac.uk:
+Array
+(
+    [0] => http://muslimcollege.ac.uk/feed/
+    [1] => http://muslimcollege.ac.uk/comments/feed/
+)
+
+mwrc.ac.uk:
+Array
+(
+    [0] => http://www.mwrc.ac.uk/blog/rss.xml
+    [1] => "/rss/
+)
+
+myerscough.ac.uk:
+Array
+(
+    [0] => "/news.rss.aspx
+    [1] => "/events.rss.aspx
+)
+
+nactem.ac.uk:
+Array
+(
+    [0] => "/rss.xml
+)
+
+nam.ac.uk:
+Array
+(
+    [0] => http://www.nam.ac.uk/rss.xml
+)
+
+natcen.ac.uk:
+Array
+(
+    [0] => "/blog.xml
+)
+
+natgalscot.ac.uk:
+Array
+(
+    [0] => http://www.nationalgalleries.org/rss/events
+    [1] => http://www.nationalgalleries.org/rss/exhibitions
+    [2] => http://www.nationalgalleries.org/rss/jobs
+    [3] => http://www.nationalgalleries.org/rss/pressreleases
+    [4] => http://www.nationalgalleries.org/rss/works
+    [5] => http://www.nationalgalleries.org/rss/portrait_of_the_month
+    [6] => http://www.nationalgalleries.org/rss/media
+    [7] => http://www.nationalgalleries.org/rss/blog
+)
+
+national-army-museum.ac.uk:
+Array
+(
+    [0] => http://www.nam.ac.uk/rss.xml
+)
+
+nationalnetworkforinterpreting.ac.uk:
+Array
+(
+    [0] => http://www.nationalnetworkforinterpreting.ac.uk/index.php/feed
+    [1] => http://www.nationalnetworkforinterpreting.ac.uk/wp-content/plugins/nextgen-gallery/xml/media-rss.php
+)
+
+nationalnetworkfortranslation.ac.uk:
+Array
+(
+    [0] => http://www.nationalnetworkfortranslation.ac.uk/rss.xml
+)
+
+nc4m.ac.uk:
+Array
+(
+    [0] => http://www.nc4m.ac.uk/feed/
+    [1] => http://www.nc4m.ac.uk/home/feed/
+)
+
+ncas.ac.uk:
+Array
+(
+    [0] => "/index.php/en/?format=feed&type=rss
+)
+
+ncccs.ac.uk:
+Array
+(
+    [0] => http://cmslive.nottingham.ac.uk/ncccs/home.aspx?schoolhomepagenews_syndicationtype=1
+    [1] => http://cmslive.nottingham.ac.uk/ncccs/home.aspx?schoolhomepageevents_standardlist_syndicationtype=1
+    [2] => http://cmslive.nottingham.ac.uk/ncccs/home.aspx?schoolhomepageevents_minilist_syndicationtype=1
+)
+
+ncdoncaster.ac.uk:
+Array
+(
+    [0] => http://www.ncdoncaster.uk/?feed=rss2
+    [1] => http://www.ncdoncaster.uk/?feed=comments-rss2
+    [2] => http://www.ncdoncaster.uk/?feed=rss2&page_id=9
+)
+
+ncl.ac.uk:
+Array
+(
+    [0] => http://www.ncl.ac.uk/news/rss.xml?a=pressreleases
+    [1] => http://www.ncl.ac.uk/news/rss.xml?a=noticeboard%7cpubliclectures%7ckingshall&o=event
+)
+
+nclan.ac.uk:
+Array
+(
+    [0] => "/?format=feed&type=rss
+)
+
+nclanarkshire.ac.uk:
+Array
+(
+    [0] => "/?format=feed&type=rss
+)
+
+ncpontefract.ac.uk:
+Array
+(
+    [0] => http://www.ncpontefract.ac.uk/feed/
+    [1] => http://www.ncpontefract.ac.uk/comments/feed/
+)
+
+nct.ac.uk:
+Array
+(
+    [0] => "/?format=feed&type=rss
+)
+
+ncuk.ac.uk:
+Array
+(
+    [0] => http://www.ncuk.ac.uk/rss.xml
+)
+
+ndonline.ac.uk:
+Array
+(
+    [0] => http://www.notredamecoll.ac.uk/index.php/feed/
+    [1] => http://www.notredamecoll.ac.uk/index.php/comments/feed/
+)
+
+nemode.ac.uk:
+Array
+(
+    [0] => http://www.nemode.ac.uk/?feed=rss2
+    [1] => http://www.nemode.ac.uk/?feed=comments-rss2
+)
+
+nerc.ac.uk:
+Array
+(
+    [0] => "/site/rss/
+)
+
+netskills.ac.uk:
+Array
+(
+    [0] => "/content/about/publicity/news/rss/all.rss
+)
+
+newbattleabbeycollege.ac.uk:
+Array
+(
+    [0] => http://www.newbattleabbeycollege.ac.uk/?feed=rss2
+    [1] => http://www.newbattleabbeycollege.ac.uk/?feed=comments-rss2
+    [2] => http://www.newbattleabbeycollege.ac.uk/?feed=rss2&page_id=17
+)
+
+newbury-college.ac.uk:
+Array
+(
+    [0] => "/index.php?format=feed&type=rss
+    [1] => "/component/obrss/3-news.html
+)
+
+newcastle.ac.uk:
+Array
+(
+    [0] => http://www.ncl.ac.uk/news/rss.xml?a=pressreleases
+    [1] => http://www.ncl.ac.uk/news/rss.xml?a=noticeboard%7cpubliclectures%7ckingshall&o=event
+)
+
+newcastlecitylearning.ac.uk:
+Array
+(
+    [0] => "/index.php?format=feed&type=rss
+)
+
+newcollpont.ac.uk:
+Array
+(
+    [0] => http://www.ncpontefract.ac.uk/feed/
+    [1] => http://www.ncpontefract.ac.uk/comments/feed/
+)
+
+newman.ac.uk:
+Array
+(
+    [0] => http://feeds2.feedburner.com/newmanrss
+)
+
+newsfilm.ac.uk:
+Array
+(
+    [0] => http://bufvc.ac.uk/feed
+)
+
+nftsfilm-tv.ac.uk:
+Array
+(
+    [0] => "/?q=rss.xml
+)
+
+ngacdt.ac.uk:
+Array
+(
+    [0] => http://ngacdt.ac.uk/feed/
+    [1] => http://ngacdt.ac.uk/comments/feed/
+)
+
+niace.ac.uk:
+Array
+(
+    [0] => "/feeds/news/rss.xml
+)
+
+nmahp-ru.ac.uk:
+Array
+(
+    [0] => http://www.nmahp-ru.ac.uk/feed/
+    [1] => http://www.nmahp-ru.ac.uk/comments/feed/
+)
+
+nnc.ac.uk:
+Array
+(
+    [0] => http://www.nnc.ac.uk/feed
+    [1] => http://www.nnc.ac.uk/comments/feed
+)
+
+nnotts-col.ac.uk:
+Array
+(
+    [0] => http://www.nnc.ac.uk/feed
+    [1] => http://www.nnc.ac.uk/comments/feed
+)
+
+noa.ac.uk:
+Array
+(
+    [0] => http://noa.ac.uk/feed/
+    [1] => http://noa.ac.uk/comments/feed/
+)
+
+noc.ac.uk:
+Array
+(
+    [0] => "/news/latest_news.xml
+    [1] => "/events-feed.xml
+)
+
+nocs.ac.uk:
+Array
+(
+    [0] => "/news/latest_news.xml
+    [1] => "/events-feed.xml
+)
+
+norfolkcove.ac.uk:
+Array
+(
+    [0] => "/photos/feed
+    [1] => "/sitemap
+)
+
+northgrid.ac.uk:
+Array
+(
+    [0] => "/news/?feed=rss2
+    [1] => "/rss/rss.html
+)
+
+northscotland-research.ac.uk:
+Array
+(
+    [0] => "/events/rss.xml
+)
+
+notredamecoll.ac.uk:
+Array
+(
+    [0] => http://www.notredamecoll.ac.uk/index.php/feed/
+    [1] => http://www.notredamecoll.ac.uk/index.php/comments/feed/
+)
+
+novella.ac.uk:
+Array
+(
+    [0] => "/news/rss.xml
+)
+
+ntfs.ac.uk:
+Array
+(
+    [0] => http://www.heacademy.ac.uk/rss
+)
+
+nua.ac.uk:
+Array
+(
+    [0] => http://www.nua.ac.uk/feed/
+    [1] => http://www.nua.ac.uk/comments/feed/
+)
+
+nuc.ac.uk:
+Array
+(
+    [0] => http://www.nuc.ac.uk/feed/
+    [1] => http://www.nuc.ac.uk/comments/feed/
+)
+
+nuca.ac.uk:
+Array
+(
+    [0] => http://www.nua.ac.uk/feed/
+    [1] => http://www.nua.ac.uk/comments/feed/
+)
+
+nulc.ac.uk:
+Array
+(
+    [0] => "/?format=feed&type=rss
+)
+
+nw-grid.ac.uk:
+Array
+(
+    [0] => "/home?action=rss_rc&unique=1&ddiffs=1
+)
+
+nwkcollege.ac.uk:
+Array
+(
+    [0] => "/handlers/news_rss.ashx
+)
+
+nwupc.ac.uk:
+Array
+(
+    [0] => "/?format=feed&type=rss
+)
+
+oasiscollege.ac.uk:
+Array
+(
+    [0] => "/blog/feed
+)
+
+oatridge.ac.uk:
+Array
+(
+    [0] => http://www.sruc.ac.uk/rss/news
+)
+
+obs.ac.uk:
+Array
+(
+    [0] => http://www.obs.ac.uk/?feed=rss2
+    [1] => http://www.obs.ac.uk/?feed=rss2&page_id=340
+)
+
+ochjs.ac.uk:
+Array
+(
+    [0] => http://www.ochjs.ac.uk/feed/
+    [1] => http://www.ochjs.ac.uk/comments/feed/
+)
+
+oercymru.ac.uk:
+Array
+(
+    [0] => http://www.oerwales.ac.uk/feed/
+    [1] => http://www.oerwales.ac.uk/comments/feed/
+)
+
+oerwales.ac.uk:
+Array
+(
+    [0] => http://www.oerwales.ac.uk/feed/
+    [1] => http://www.oerwales.ac.uk/comments/feed/
+)
+
+offshorerenewables.ac.uk:
+Array
+(
+    [0] => http://offshorerenewables.ac.uk/feed/
+    [1] => http://offshorerenewables.ac.uk/comments/feed/
+    [2] => http://offshorerenewables.ac.uk/oiffshore-renewables/feed/
+)
+
+ogsa-dai.ac.uk:
+Array
+(
+    [0] => http://www.epcc.ed.ac.uk/rss.xml
+)
+
+omii.ac.uk:
+Array
+(
+    [0] => http://www.omii.ac.uk/events.rss
+    [1] => http://www.omii.ac.uk/news.rss
+    [2] => http://www.omii.ac.uk/all.rss
+)
+
+orchardhill.ac.uk:
+Array
+(
+    [0] => http://www.orchardhill.ac.uk/feed
+    [1] => http://www.orchardhill.ac.uk/comments/feed
+)
+
+orientalmed.ac.uk:
+Array
+(
+    [0] => http://www.orientalmed.ac.uk/feed/
+    [1] => http://www.orientalmed.ac.uk/comments/feed/
+)
+
+osfc.ac.uk:
+Array
+(
+    [0] => http://www.osfc.ac.uk/feed/
+    [1] => http://www.osfc.ac.uk/comments/feed/
+)
+
+osmosis.ac.uk:
+Array
+(
+    [0] => http://www.osmosis.ac.uk/feed/
+    [1] => http://www.osmosis.ac.uk/comments/feed/
+)
+
+oss-watch.ac.uk:
+Array
+(
+    [0] => http://osswatch.jiscinvolve.org/feed
+)
+
+palmers.ac.uk:
+Array
+(
+    [0] => "/news.xml
+)
+
+panda.ac.uk:
+Array
+(
+    [0] => http://www.panda.ac.uk/panda_rss.xml
+)
+
+pcfe.ac.uk:
+Array
+(
+    [0] => "/events/rss.xml
+    [1] => "/news/rss.xml
+)
+
+pcmd.ac.uk:
+Array
+(
+    [0] => http://feeds.feedburner.com/pcmd
+)
+
+pds.ac.uk:
+Array
+(
+    [0] => http://feeds.feedburner.com/pcmd
+)
+
+peninsula.ac.uk:
+Array
+(
+    [0] => http://feeds.feedburner.com/pcmd
+)
+
+peninsular.ac.uk:
+Array
+(
+    [0] => http://feeds.feedburner.com/pcmd
+)
+
+penwith.ac.uk:
+Array
+(
+    [0] => http://www.truro-penwith.ac.uk/feed/
+)
+
+penwithcollege.ac.uk:
+Array
+(
+    [0] => http://www.truro-penwith.ac.uk/feed/
+)
+
+petroc.ac.uk:
+Array
+(
+    [0] => http://www.petroc.ac.uk/rss/news
+    [1] => http://www.petroc.ac.uk/rss/events
+)
+
+plymsea.ac.uk:
+Array
+(
+    [0] => http://plymsea.ac.uk/cgi/latest_tool?output=rss2
+)
+
+pms.ac.uk:
+Array
+(
+    [0] => http://feeds.feedburner.com/pcmd
+)
+
+podium.ac.uk:
+Array
+(
+    [0] => "/rss/news.xml
+    [1] => "/rss/blog.xml
+)
+
+poms.ac.uk:
+Array
+(
+    [0] => http://www.poms.ac.uk/feed/
+    [1] => http://www.poms.ac.uk/comments/feed/
+)
+
+portland.ac.uk:
+Array
+(
+    [0] => http://www.portland.ac.uk/news/rss
+)
+
+portsmouth-college.ac.uk:
+Array
+(
+    [0] => "/?format=feed&type=rss
+)
+
+pramu.ac.uk:
+Array
+(
+    [0] => http://pramu.ac.uk/?feed=rss2
+    [1] => http://pramu.ac.uk/?feed=comments-rss2
+    [2] => http://pramu.ac.uk/?feed=rss2&page_id=41
+)
+
+priestley.ac.uk:
+Array
+(
+    [0] => http://www.priestley.ac.uk/feed/
+    [1] => http://www.priestley.ac.uk/comments/feed/
+    [2] => http://www.priestley.ac.uk/sample-page/feed/
+)
+
+priestleycollege.ac.uk:
+Array
+(
+    [0] => http://www.priestley.ac.uk/feed/
+    [1] => http://www.priestley.ac.uk/comments/feed/
+    [2] => http://www.priestley.ac.uk/sample-page/feed/
+)
+
+prism.ac.uk:
+Array
+(
+    [0] => http://www.prism.ac.uk/sample-page/feed/
+)
+
+proms.ac.uk:
+Array
+(
+    [0] => http://www.proms.ac.uk/feed/
+    [1] => http://www.proms.ac.uk/comments/feed/
+)
+
+prospecttraining.ac.uk:
+Array
+(
+    [0] => http://www.prospecttraining.ac.uk/feed/
+    [1] => http://www.prospecttraining.ac.uk/comments/feed/
+)
+
+publicinterest.ac.uk:
+Array
+(
+    [0] => "/index.php?format=feed&type=rss
+)
+
+publicservices.ac.uk:
+Array
+(
+    [0] => http://www.publicservices.ac.uk/index.php/feed
+)
+
+qoru.ac.uk:
+Array
+(
+    [0] => http://www.qoru.ac.uk/feed/
+    [1] => http://www.qoru.ac.uk/comments/feed/
+)
+
+rada.ac.uk:
+Array
+(
+    [0] => "/?format=feed&type=rss
+)
+
+raft.ac.uk:
+Array
+(
+    [0] => "/handlers/rss.ashx?feed=1
+    [1] => "/handlers/rss.ashx
+)
+
+rbge.ac.uk:
+Array
+(
+    [0] => "/about-us/news/feed
+)
+
+rcc.ac.uk:
+Array
+(
+    [0] => "/blogfeed.xml
+)
+
+rcplondon.ac.uk:
+Array
+(
+    [0] => "/rss/press-releases
+    [1] => "/rss/update
+)
+
+rcsed.ac.uk:
+Array
+(
+    [0] => "/the-college/news/rss.aspx
+    [1] => "/the-college/news/rss_college_news.aspx
+    [2] => "/the-college/news/rss_prof_news.aspx
+)
+
+rcuk.ac.uk:
+Array
+(
+    [0] => "/tasks/feed/?feedid=e63fca83-3c24-4192-adf6cd2cfef00bb8
+)
+
+rcvs.ac.uk:
+Array
+(
+    [0] => "/news-and-events/news/feed.xml
+)
+
+realisingopportunities.ac.uk:
+Array
+(
+    [0] => http://www.realisingopportunities.ac.uk/feed
+    [1] => http://www.realisingopportunities.ac.uk/comments/feed
+    [2] => http://www.realisingopportunities.ac.uk/home/feed
+)
+
+reaseheath.ac.uk:
+Array
+(
+    [0] => http://www.reaseheath.ac.uk/feed/
+    [1] => http://www.reaseheath.ac.uk/comments/feed/
+)
+
+regener8.ac.uk:
+Array
+(
+    [0] => "/rss/
+)
+
+regent-college.ac.uk:
+Array
+(
+    [0] => "/index.php?format=feed&type=rss
+)
+
+regents-tc.ac.uk:
+Array
+(
+    [0] => "/publisher/rss.xml
+)
+
+reidkerr.ac.uk:
+Array
+(
+    [0] => http://www.reidkerr.ac.uk/feed.xml
+)
+
+rems-cdt.ac.uk:
+Array
+(
+    [0] => http://www.rems-cdt.ac.uk/home/feed/
+)
+
+renu.ac.uk:
+Array
+(
+    [0] => http://renu.ac.uk/feed/
+    [1] => http://renu.ac.uk/comments/feed/
+    [2] => http://renu.ac.uk/sample-page/feed/
+)
+
+rgu.ac.uk:
+Array
+(
+    [0] => http://www.rgu.ac.uk/dmnews/feedrss
+    [1] => http://www.rgu.ac.uk/dmevent/feedrss
+    [2] => "/dmnews/feedrss?rssid=06214da0-b98d-11e3-aca20050568d0025
+)
+
+rhbnc.ac.uk:
+Array
+(
+    [0] => "/home.aspx?listingevents_syndicationtype=1
+)
+
+rhul.ac.uk:
+Array
+(
+    [0] => "/home.aspx?listingevents_syndicationtype=1
+)
+
+ri.ac.uk:
+Array
+(
+    [0] => http://www.rigb.org/blog.ajax
+)
+
+rluk.ac.uk:
+Array
+(
+    [0] => http://www.rluk.ac.uk/feed/
+    [1] => http://www.rluk.ac.uk/comments/feed/
+    [2] => http://www.rluk.ac.uk/home/feed/
+)
+
+rncm.ac.uk:
+Array
+(
+    [0] => "/feed/?post_type=news
+)
+
+rothamsted.ac.uk:
+Array
+(
+    [0] => http://www.rothamsted.ac.uk/rss.xml
+    [1] => http://www.rothamsted.ac.uk/newsfeed
+)
+
+royalarmouries.ac.uk:
+Array
+(
+    [0] => http://www.royalarmouries.ac.uk/rss/events
+    [1] => http://www.royalarmouries.ac.uk/rss/press
+    [2] => http://www.royalarmouries.ac.uk/rss
+)
+
+royalholloway.ac.uk:
+Array
+(
+    [0] => "/home.aspx?listingevents_syndicationtype=1
+)
+
+royalsoc.ac.uk:
+Array
+(
+    [0] => "/stay-in-touch/rss
+)
+
+rsp.ac.uk:
+Array
+(
+    [0] => "/feed-me/events/
+)
+
+rural-health.ac.uk:
+Array
+(
+    [0] => http://www.rural-health.ac.uk/feed/
+    [1] => http://www.rural-health.ac.uk/comments/feed/
+)
+
+rutc.ac.uk:
+Array
+(
+    [0] => "/?format=feed&type=rss
+)
+
+sac.ac.uk:
+Array
+(
+    [0] => http://www.sruc.ac.uk/rss/news
+)
+
+sahfos.ac.uk:
+Array
+(
+    [0] => "/news/rss.aspx
+    [1] => "/what-is-a-rss-feed.aspx
+)
+
+sapc.ac.uk:
+Array
+(
+    [0] => "/index.php?format=feed&type=rss
+)
+
+sarum.ac.uk:
+Array
+(
+    [0] => http://www.sarum.ac.uk/feed
+    [1] => http://www.sarum.ac.uk/comments/feed
+    [2] => http://www.sarum.ac.uk/home/feed
+    [3] => http://www.sarum.ac.uk/feed/podcast/
+)
+
+sbc.ac.uk:
+Array
+(
+    [0] => "/?format=feed&type=rss
+)
+
+sbrn.ac.uk:
+Array
+(
+    [0] => http://www.lifesci.dundee.ac.uk/rss.xml
+)
+
+scapa.ac.uk:
+Array
+(
+    [0] => http://www.scapa.ac.uk/?feed=rss2
+    [1] => http://www.scapa.ac.uk/?feed=comments-rss2
+    [2] => http://www.scapa.ac.uk/?feed=rss2&page_id=62
+)
+
+scarb-6-form.ac.uk:
+Array
+(
+    [0] => http://s6f.org.uk/feed/
+    [1] => http://s6f.org.uk/comments/feed/
+)
+
+sccb.ac.uk:
+Array
+(
+    [0] => "/?format=feed&type=rss
+)
+
+sccjr.ac.uk:
+Array
+(
+    [0] => http://www.sccjr.ac.uk/feed.rss
+)
+
+schoms.ac.uk:
+Array
+(
+    [0] => http://www.schoms.ac.uk/feed/
+    [1] => http://www.schoms.ac.uk/comments/feed/
+    [2] => http://www.schoms.ac.uk/home/feed/
+)
+
+sciculture.ac.uk:
+Array
+(
+    [0] => http://www.sciculture.ac.uk/feed/
+    [1] => http://www.sciculture.ac.uk/comments/feed/
+)
+
+scola.ac.uk:
+Array
+(
+    [0] => http://www.scola.ac.uk/feed/
+    [1] => http://www.scola.ac.uk/comments/feed/
+    [2] => http://www.scola.ac.uk/home/feed/
+)
+
+scot-ship.ac.uk:
+Array
+(
+    [0] => "/rss.xml
+)
+
+scottishuniversitygovernance.ac.uk:
+Array
+(
+    [0] => http://www.scottishuniversitygovernance.ac.uk/feed/
+    [1] => http://www.scottishuniversitygovernance.ac.uk/comments/feed/
+)
+
+scphrp.ac.uk:
+Array
+(
+    [0] => http://www.scphrp.ac.uk/feed/
+    [1] => http://www.scphrp.ac.uk/comments/feed/
+)
+
+scran.ac.uk:
+Array
+(
+    [0] => "/rss.php
+    [1] => "/news/rssinfo.php?&phpsessid=o3d52d4jfkfj5n003kmk63eja2
+)
+
+scri.ac.uk:
+Array
+(
+    [0] => "/feed
+)
+
+scurl.ac.uk:
+Array
+(
+    [0] => http://scurl.ac.uk/feed/
+    [1] => http://scurl.ac.uk/comments/feed/
+    [2] => http://scurl.ac.uk/wp-content/plugins/mingle-forum/feed.php?topic=all
+)
+
+sdeo.ac.uk:
+Array
+(
+    [0] => http://www.sdeo.ac.uk/?feed=rss2&page_id=2
+)
+
+sdf.ac.uk:
+Array
+(
+    [0] => http://sdf.ac.uk/feed
+    [1] => http://sdf.ac.uk/comments/feed
+)
+
+sdhi.ac.uk:
+Array
+(
+    [0] => http://sdhi.wordpress.com/feed/
+    [1] => http://sdhi.wordpress.com/comments/feed/
+)
+
+seaha-cdt.ac.uk:
+Array
+(
+    [0] => http://www.seaha-cdt.ac.uk/feed/
+    [1] => http://www.seaha-cdt.ac.uk/comments/feed/
+)
+
+secureharvests.ac.uk:
+Array
+(
+    [0] => http://feeds.feedburner.com/foodsecuritynews
+    [1] => http://feeds.feedburner.com/foodsecurityblog
+)
+
+sedc.ac.uk:
+Array
+(
+    [0] => "/index.php?format=feed&type=rss
+)
+
+seintiaucymru.ac.uk:
+Array
+(
+    [0] => http://www.seintiaucymru.ac.uk/?feed=rss2
+    [1] => http://www.seintiaucymru.ac.uk/?feed=comments-rss2
+)
+
+senatehouselibrary.ac.uk:
+Array
+(
+    [0] => http://senatehouselibrary.ac.uk/feed/
+    [1] => http://senatehouselibrary.ac.uk/comments/feed/
+)
+
+sera.ac.uk:
+Array
+(
+    [0] => "/news/rss.xml
+    [1] => "/events/rss.xml
+)
+
+serena.ac.uk:
+Array
+(
+    [0] => http://www.serena.ac.uk/feed/
+    [1] => http://www.serena.ac.uk/comments/feed/
+    [2] => "/#
+)
+
+sfra.ac.uk:
+Array
+(
+    [0] => "/feed/rss.html
+)
+
+sfre.ac.uk:
+Array
+(
+    [0] => http://www.sfre.ac.uk/feed/
+)
+
+sfs.ac.uk:
+Array
+(
+    [0] => http://www.sfs.ac.uk/feed/
+    [1] => http://www.sfs.ac.uk/comments/feed/
+)
+
+sfx.ac.uk:
+Array
+(
+    [0] => "/index.php?format=feed&type=rss
+    [1] => "/rss
+)
+
+sgm.ac.uk:
+Array
+(
+    [0] => "/rss/news.rss
+    [1] => "/rss/event.rss
+)
+
+sgpe.ac.uk:
+Array
+(
+    [0] => "/feed/
+    [1] => "/comments/feed/
+)
+
+sharegeo.ac.uk:
+Array
+(
+    [0] => "/feed/rss_2.0/site
+)
+
+shef.ac.uk:
+Array
+(
+    [0] => "/ http://www.sheffield.ac.uk/cmlink/1.178033
+)
+
+sheffield.ac.uk:
+Array
+(
+    [0] => "/ http://www.sheffield.ac.uk/cmlink/1.178033
+)
+
+sherpa-leap.ac.uk:
+Array
+(
+    [0] => http://www.sherpa-leap.ac.uk/activity/feed/
+    [1] => http://www.sherpa-leap.ac.uk/feed
+    [2] => http://www.sherpa-leap.ac.uk/home/feed
+)
+
+sigma-network.ac.uk:
+Array
+(
+    [0] => http://www.sigma-network.ac.uk/feed/
+    [1] => http://www.sigma-network.ac.uk/comments/feed/
+    [2] => http://www.sigma-network.ac.uk/home/feed/
+)
+
+sikh-uni.ac.uk:
+Array
+(
+    [0] => http://www.sikh-uni.ac.uk/about-isss/feed/
+)
+
+sire.ac.uk:
+Array
+(
+    [0] => "/.21.xsl
+)
+
+siser.ac.uk:
+Array
+(
+    [0] => "/?format=feed&type=rss
+)
+
+siva.ac.uk:
+Array
+(
+    [0] => "/joom2/index.php?format=feed&type=rss
+)
+
+skillsgroupuk.ac.uk:
+Array
+(
+    [0] => http://www.skillsgroupuk.co.uk/feed/
+    [1] => http://www.skillsgroupuk.co.uk/comments/feed/
+    [2] => http://www.skillsgroupuk.co.uk/test-home-page/feed/
+)
+
+sleepandwakefulnessresearch.ac.uk:
+Array
+(
+    [0] => http://www2.warwick.ac.uk/sitebuilder2/api/rss/sitechanges.rss?page=/fac/soc/sociology/rsw/sleep
+)
+
+sma.ac.uk:
+Array
+(
+    [0] => http://www.sma.ac.uk/feed/
+)
+
+soas.ac.uk:
+Array
+(
+    [0] => "/about/news/currentnews-rss.php
+)
+
+societycentral.ac.uk:
+Array
+(
+    [0] => http://societycentral.ac.uk/feed/
+    [1] => http://societycentral.ac.uk/comments/feed/
+)
+
+softeng-support.ac.uk:
+Array
+(
+    [0] => http://softeng-support.ac.uk/feed.xml
+)
+
+software.ac.uk:
+Array
+(
+    [0] => "/rss
+    [1] => "/blog/rss
+)
+
+soillse.ac.uk:
+Array
+(
+    [0] => http://www.soillse.ac.uk/naidheachdan/rss.php
+)
+
+soton.ac.uk:
+Array
+(
+    [0] => "/mediacentre/news/feeds/rssfeed.xml
+)
+
+soundsoftware.ac.uk:
+Array
+(
+    [0] => "/rss.xml
+)
+
+south-thames.ac.uk:
+Array
+(
+    [0] => "/?format=feed&type=rss
+)
+
+southampton.ac.uk:
+Array
+(
+    [0] => "/mediacentre/news/feeds/rssfeed.xml
+)
+
+southgrid.ac.uk:
+Array
+(
+    [0] => "/news/?feed=rss2
+    [1] => "/rss/rss.html
+)
+
+southstaffs.ac.uk:
+Array
+(
+    [0] => http://www.southstaffs.ac.uk/feed/
+    [1] => http://www.southstaffs.ac.uk/comments/feed/
+)
+
+southwark.ac.uk:
+Array
+(
+    [0] => "/rssfeed
+)
+
+spaceweather.ac.uk:
+Array
+(
+    [0] => http://www.antarctica.ac.uk/about_bas/news/rss.php
+    [1] => http://www.antarctica.ac.uk/images/iotd/rss.php
+    [2] => http://www.antarctica.ac.uk/images/iotd/rss.php?cat=1
+)
+
+sparc.ac.uk:
+Array
+(
+    [0] => http://www.sparc.ac.uk/rss.asp
+    [1] => "/rss.asp
+)
+
+sparqs.ac.uk:
+Array
+(
+    [0] => http://www.sparqs.ac.uk/rss.xml
+    [1] => "/./rss.xml
+)
+
+spr.ac.uk:
+Array
+(
+    [0] => http://www.spr.ac.uk/rss.xml
+)
+
+sprg.ac.uk:
+Array
+(
+    [0] => "/rss.xml
+)
+
+src.ac.uk:
+Array
+(
+    [0] => "/?format=feed&type=rss
+)
+
+srip.ac.uk:
+Array
+(
+    [0] => http://www.nottingham.ac.uk/nursing/son_news/rss_feeds/3news.xml
+)
+
+sruc.ac.uk:
+Array
+(
+    [0] => http://www.sruc.ac.uk/rss/news
+)
+
+ssfc.ac.uk:
+Array
+(
+    [0] => http://www.ssfc.ac.uk/feed/
+    [1] => http://www.ssfc.ac.uk/comments/feed/
+)
+
+sshm.ac.uk:
+Array
+(
+    [0] => http://sshm.ac.uk/feed/
+    [1] => http://sshm.ac.uk/comments/feed/
+)
+
+ssphr.ac.uk:
+Array
+(
+    [0] => http://ssphr.ac.uk/feed/
+    [1] => http://ssphr.ac.uk/comments/feed/
+)
+
+st-and.ac.uk:
+Array
+(
+    [0] => http://www.st-andrews.ac.uk/rss/news/index.xml
+    [1] => https://www.vacancies.st-andrews.ac.uk/vacanciesfeed.aspx
+)
+
+st-andrews.ac.uk:
+Array
+(
+    [0] => http://www.st-andrews.ac.uk/rss/news/index.xml
+    [1] => https://www.vacancies.st-andrews.ac.uk/vacanciesfeed.aspx
+)
+
+stamford.ac.uk:
+Array
+(
+    [0] => http://www.stamford.ac.uk/feed/
+    [1] => http://www.stamford.ac.uk/comments/feed/
+    [2] => http://www.stamford.ac.uk/home/feed/
+)
+
+stanmore.ac.uk:
+Array
+(
+    [0] => "/?format=feed&type=rss
+)
+
+stars.ac.uk:
+Array
+(
+    [0] => "/mailto:admin@rsscse.org.uk
+)
+
+stdoms.ac.uk:
+Array
+(
+    [0] => http://www.stdoms.ac.uk/feed/
+    [1] => http://www.stdoms.ac.uk/home/feed/
+)
+
+stets.ac.uk:
+Array
+(
+    [0] => http://www.stets.ac.uk/feed
+    [1] => http://www.stets.ac.uk/comments/feed
+)
+
+sthelens.ac.uk:
+Array
+(
+    [0] => "/index.php?format=feed&type=rss
+)
+
+stjohns-nottm.ac.uk:
+Array
+(
+    [0] => "/news/rss
+)
+
+stockton.ac.uk:
+Array
+(
+    [0] => "/?format=feed&type=rss
+)
+
+stonyhurst.ac.uk:
+Array
+(
+    [0] => http://www.stonyhurst.ac.uk/feed/
+    [1] => http://www.stonyhurst.ac.uk/comments/feed/
+    [2] => http://www.stonyhurst.ac.uk/home/feed/
+)
+
+stow.ac.uk:
+Array
+(
+    [0] => http://www.glasgowkelvin.ac.uk/feed/
+    [1] => http://www.glasgowkelvin.ac.uk/comments/feed/
+)
+
+stratford.ac.uk:
+Array
+(
+    [0] => http://www.stratford.ac.uk/home.aspx?primarynavimage1list_syndicationtype=1
+    [1] => http://www.stratford.ac.uk/home.aspx?primarynavimagelist2_syndicationtype=1
+    [2] => http://www.stratford.ac.uk/home.aspx?primarynavimagelist3_syndicationtype=1
+    [3] => http://www.stratford.ac.uk/home.aspx?newsminilistinghome_syndicationtype=1
+    [4] => http://www.stratford.ac.uk/home.aspx?eventsminilistinghome_syndicationtype=1
+    [5] => http://www.stratford.ac.uk/home.aspx?primarynavimagelist4_syndicationtype=1
+)
+
+strode-college.ac.uk:
+Array
+(
+    [0] => "/rss/news/feed
+)
+
+suffolkone.ac.uk:
+Array
+(
+    [0] => "/tools/blocks/page_list/rss?bid=431&cid=292&arhandle=main
+)
+
+sumsconsulting.ac.uk:
+Array
+(
+    [0] => "/?format=feed&type=rss
+)
+
+sund.ac.uk:
+Array
+(
+    [0] => http://www.sunderland.ac.uk/newsevents/news/rss/index.php
+    [1] => http://www.sunderland.ac.uk/newsevents/events/rss/index.php
+    [2] => http://www.sunderland.ac.uk/ug/opendays/rss/index.php
+)
+
+sunderland.ac.uk:
+Array
+(
+    [0] => http://www.sunderland.ac.uk/newsevents/news/rss/index.php
+    [1] => http://www.sunderland.ac.uk/newsevents/events/rss/index.php
+    [2] => http://www.sunderland.ac.uk/ug/opendays/rss/index.php
+)
+
+sunderlandcollege.ac.uk:
+Array
+(
+    [0] => http://sunderlandcollege.ac.uk/feed/
+    [1] => http://sunderlandcollege.ac.uk/comments/feed/
+    [2] => http://sunderlandcollege.ac.uk/home/feed/
+)
+
+superdarn.ac.uk:
+Array
+(
+    [0] => http://www.superdarn.ac.uk/feed/
+)
+
+sussexcoast.ac.uk:
+Array
+(
+    [0] => "/?format=feed&type=rss
+    [1] => "/component/obrss/news?format=
+)
+
+sustainablepractices.ac.uk:
+Array
+(
+    [0] => "/rss.xml
+)
+
+swancoll.ac.uk:
+Array
+(
+    [0] => http://feeds.feedburner.com/gowercollegeswanseanewsandeventsrssfeed
+)
+
+swindon-college.ac.uk:
+Array
+(
+    [0] => "/rss.xml
+)
+
+swindon.ac.uk:
+Array
+(
+    [0] => "/rss.xml
+)
+
+sww-ahdtp.ac.uk:
+Array
+(
+    [0] => http://www.sww-ahdtp.ac.uk/feed/
+    [1] => http://www.sww-ahdtp.ac.uk/comments/feed/
+    [2] => http://www.sww-ahdtp.ac.uk/homepage/feed/
+)
+
+talkinghealthmatters.ac.uk:
+Array
+(
+    [0] => http://talkinghealthmatters.ac.uk/feed/
+    [1] => http://talkinghealthmatters.ac.uk/home/feed/
+    [2] => http://talkinghealthmatters.ac.uk/comments/feed/
+)
+
+tccr.ac.uk:
+Array
+(
+    [0] => "/?format=feed&type=rss
+)
+
+techxtra.ac.uk:
+Array
+(
+    [0] => http://techxtranews.wordpress.com/feed/
+)
+
+tees.ac.uk:
+Array
+(
+    [0] => http://www.tees.ac.uk/sections/news/rss.xml
+)
+
+teesside.ac.uk:
+Array
+(
+    [0] => http://www.tees.ac.uk/sections/news/rss.xml
+)
+
+tel.ac.uk:
+Array
+(
+    [0] => http://tel.ioe.ac.uk/feed/
+    [1] => http://tel.ioe.ac.uk/download/rss/
+)
+
+temenos.ac.uk:
+Array
+(
+    [0] => http://www.temenos.ac.uk/feed/
+    [1] => http://www.temenos.ac.uk/my-new-home-page/feed/
+)
+
+testa.ac.uk:
+Array
+(
+    [0] => "/index.php?format=feed&type=rss
+)
+
+textminingcentre.ac.uk:
+Array
+(
+    [0] => "/rss.xml
+)
+
+tgac.ac.uk:
+Array
+(
+    [0] => http://www.tgac.ac.uk/feeds/news.rss
+
+)
+
+thamesvalleytraining.ac.uk:
+Array
+(
+    [0] => http://www.thamesvalleytraining.ac.uk/feed/
+    [1] => http://www.thamesvalleytraining.ac.uk/comments/feed/
+    [2] => http://www.thamesvalleytraining.ac.uk/home/feed/
+)
+
+themanchestercollege.ac.uk:
+Array
+(
+    [0] => "/news/rss.xml/all/3%2b2%2b6%2b5%2b1%2b4
+)
+
+themis.ac.uk:
+Array
+(
+    [0] => http://www.themis.ac.uk/feed/
+    [1] => http://www.themis.ac.uk/comments/feed/
+    [2] => http://www.themis.ac.uk/home-2/feed/
+)
+
+thesenses.ac.uk:
+Array
+(
+    [0] => http://www.thesenses.ac.uk/feed/
+    [1] => http://www.thesenses.ac.uk/comments/feed/
+)
+
+tpc.ac.uk:
+Array
+(
+    [0] => "/?format=feed&type=rss
+)
+
+traffcoll.ac.uk:
+Array
+(
+    [0] => http://www.trafford.ac.uk/feed
+    [1] => http://www.trafford.ac.uk/comments/feed
+)
+
+trafford.ac.uk:
+Array
+(
+    [0] => http://www.trafford.ac.uk/feed
+    [1] => http://www.trafford.ac.uk/comments/feed
+)
+
+traffordcollege.ac.uk:
+Array
+(
+    [0] => http://www.trafford.ac.uk/feed
+    [1] => http://www.trafford.ac.uk/comments/feed
+)
+
+transit.ac.uk:
+Array
+(
+    [0] => http://feeds.feedburner.com/universityofbradfordpressreleases
+)
+
+transitwestyorkshire.ac.uk:
+Array
+(
+    [0] => http://feeds.feedburner.com/universityofbradfordpressreleases
+)
+
+tresham.ac.uk:
+Array
+(
+    [0] => http://www.tresham.ac.uk/welcome-to-tresham-college/feed/
+    [1] => "/rss
+)
+
+trs.ac.uk:
+Array
+(
+    [0] => http://trs.ac.uk/feed/
+    [1] => http://trs.ac.uk/comments/feed/
+)
+
+truro-penwith.ac.uk:
+Array
+(
+    [0] => http://www.truro-penwith.ac.uk/feed/
+)
+
+trurocollege.ac.uk:
+Array
+(
+    [0] => http://www.truro-penwith.ac.uk/feed/
+)
+
+truropenwith.ac.uk:
+Array
+(
+    [0] => http://www.truro-penwith.ac.uk/feed/
+)
+
+tuca.ac.uk:
+Array
+(
+    [0] => "/en-gb/news-events/rss-feeds/
+)
+
+tvu.ac.uk:
+Array
+(
+    [0] => "/news.xml
+    [1] => "/events.xml
+)
+
+twin-research.ac.uk:
+Array
+(
+    [0] => http://www.twinsuk.ac.uk/home/feed/
+)
+
+twinsuk.ac.uk:
+Array
+(
+    [0] => http://www.twinsuk.ac.uk/home/feed/
+)
+
+tyndall.ac.uk:
+Array
+(
+    [0] => "/rss.xml
+)
+
+ucb.ac.uk:
+Array
+(
+    [0] => http://www.ucb.ac.uk/home.aspx?homenewslist_syndicationtype=1
+)
+
+ucet.ac.uk:
+Array
+(
+    [0] => "/feeds
+)
+
+ucml.ac.uk:
+Array
+(
+    [0] => "/rss.xml
+)
+
+ucs.ac.uk:
+Array
+(
+    [0] => "/about/news/newsarchive.aspx?rss=true
+)
+
+ucsm.ac.uk:
+Array
+(
+    [0] => http://www.cumbria.ac.uk/home.aspx?newsstandardandminicombo_standardlist_syndicationtype=1
+    [1] => http://www.cumbria.ac.uk/home.aspx?newsstandardandminicombo_minilist_syndicationtype=1
+)
+
+ucy.ac.uk:
+Array
+(
+    [0] => http://www.ucy.ac.uk/sample-page/feed/
+)
+
+ufm.ac.uk:
+Array
+(
+    [0] => http://www.kent.ac.uk/news/rss.html
+    [1] => http://www.kent.ac.uk/research/rss.html
+    [2] => http://www.kent.ac.uk/news/comment/rss.html
+    [3] => http://www.kent.ac.uk/student/rss.html
+    [4] => http://www.kent.ac.uk/campusonline/updates/rss.html
+    [5] => http://www.kent.ac.uk/campusonline/people/rss.html
+    [6] => "/news/rss/
+)
+
+uhi.ac.uk:
+Array
+(
+    [0] => http://feeds.feedburner.com/uhinews
+    [1] => http://feeds.feedburner.com/uhievents
+    [2] => http://feeds.feedburner.com/uhijobs
+)
+
+uk-cdi.ac.uk:
+Array
+(
+    [0] => http://uk-cdi.ac.uk/feed/
+    [1] => http://uk-cdi.ac.uk/comments/feed/
+)
+
+ukadia.ac.uk:
+Array
+(
+    [0] => http://ukadia.ac.uk/feed/
+    [1] => http://ukadia.ac.uk/comments/feed/
+)
+
+ukbiobank.ac.uk:
+Array
+(
+    [0] => http://www.ukbiobank.ac.uk/feed/
+    [1] => http://www.ukbiobank.ac.uk/comments/feed/
+    [2] => http://www.ukbiobank.ac.uk/home/feed/
+)
+
+ukc.ac.uk:
+Array
+(
+    [0] => http://www.kent.ac.uk/news/rss.html
+    [1] => http://www.kent.ac.uk/research/rss.html
+    [2] => http://www.kent.ac.uk/news/comment/rss.html
+    [3] => http://www.kent.ac.uk/student/rss.html
+    [4] => http://www.kent.ac.uk/campusonline/updates/rss.html
+    [5] => http://www.kent.ac.uk/campusonline/people/rss.html
+    [6] => "/news/rss/
+)
+
+ukccsrc.ac.uk:
+Array
+(
+    [0] => "/rss.xml
+)
+
+ukctas.ac.uk:
+Array
+(
+    [0] => http://cmslive.nottingham.ac.uk/ukctas/index.aspx?genericlist2_syndicationtype=1
+    [1] => http://cmslive.nottingham.ac.uk/ukctas/index.aspx?genericlist_syndicationtype=1
+)
+
+ukhec.ac.uk:
+Array
+(
+    [0] => http://www.epcc.ed.ac.uk/rss.xml
+)
+
+ukm.ac.uk:
+Array
+(
+    [0] => http://www.kent.ac.uk/news/rss.html
+    [1] => http://www.kent.ac.uk/research/rss.html
+    [2] => http://www.kent.ac.uk/news/comment/rss.html
+    [3] => http://www.kent.ac.uk/student/rss.html
+    [4] => http://www.kent.ac.uk/campusonline/updates/rss.html
+    [5] => http://www.kent.ac.uk/campusonline/people/rss.html
+    [6] => "/news/rss/
+)
+
+ukngi.ac.uk:
+Array
+(
+    [0] => http://www.ukngi.ac.uk/rss.xml
+)
+
+ukoln.ac.uk:
+Array
+(
+    [0] => http://www.ukoln.ac.uk/news/feed/rss/
+)
+
+ulcc.ac.uk:
+Array
+(
+    [0] => http://ulcc.ac.uk/rss.xml
+)
+
+ull.ac.uk:
+Array
+(
+    [0] => http://senatehouselibrary.ac.uk/feed/
+    [1] => http://senatehouselibrary.ac.uk/comments/feed/
+)
+
+umds.ac.uk:
+Array
+(
+    [0] => http://www.kcl.ac.uk/newsevents/index.aspx?newslisting_syndicationtype=1
+)
+
+unialliance.ac.uk:
+Array
+(
+    [0] => http://www.unialliance.ac.uk/home/feed/
+)
+
+universitiesweek.ac.uk:
+Array
+(
+    [0] => "/pages/rssfeeds.aspx
+)
+
+university-alliance.ac.uk:
+Array
+(
+    [0] => http://www.unialliance.ac.uk/home/feed/
+)
+
+universitychairs.ac.uk:
+Array
+(
+    [0] => http://www.universitychairs.ac.uk/feed/
+    [1] => http://www.universitychairs.ac.uk/comments/feed/
+    [2] => http://www.universitychairs.ac.uk/home/feed/
+)
+
+uod.ac.uk:
+Array
+(
+    [0] => http://feeds.feedburner.com/dundeeuniversity?format=xml
+)
+
+urbanbigdatacentre.ac.uk:
+Array
+(
+    [0] => http://urbanbigdatacentre.com/?feed=rss2
+    [1] => http://urbanbigdatacentre.com/?feed=comments-rss2
+)
+
+ushare.ac.uk:
+Array
+(
+    [0] => http://www.youshare.ac.uk/?feed=rss2
+    [1] => http://www.youshare.ac.uk/?feed=comments-rss2
+)
+
+uvac.ac.uk:
+Array
+(
+    [0] => http://www.uvac.ac.uk/feed/
+    [1] => http://www.uvac.ac.uk/comments/feed/
+)
+
+uwe.ac.uk:
+Array
+(
+    [0] => http://info.uwe.ac.uk/news/xml/uwenewsrss.xml
+)
+
+uwl.ac.uk:
+Array
+(
+    [0] => "/news.xml
+    [1] => "/events.xml
+)
+
+vcoll.ac.uk:
+Array
+(
+    [0] => http://www.vcoll.ac.uk/?feed=rss2
+    [1] => http://www.vcoll.ac.uk/?feed=comments-rss2
+)
+
+visuallearninglab.ac.uk:
+Array
+(
+    [0] => http://www.nottingham.ac.uk/visuallearninglab/visuallearninglab.aspx?schoolhomeimagerotate_syndicationtype=1
+)
+
+wakefield.ac.uk:
+Array
+(
+    [0] => "/rss.html
+)
+
+wales.ac.uk:
+Array
+(
+    [0] => http://www.wales.ac.uk/en/home.aspx?newsfeaturelisting_syndicationtype=1
+    [1] => http://www.wales.ac.uk/en/home.aspx?subnewsfeaturelist_syndicationtype=1
+    [2] => http://www.wales.ac.uk/en/home.aspx?eventlistingitem_syndicationtype=1
+)
+
+walesdtc.ac.uk:
+Array
+(
+    [0] => http://www.walesdtc.ac.uk/feed/
+    [1] => http://www.walesdtc.ac.uk/comments/feed/
+    [2] => http://twitter.com/wrssdtc
+)
+
+waltham.ac.uk:
+Array
+(
+    [0] => "/?format=feed&type=rss
+)
+
+warr.ac.uk:
+Array
+(
+    [0] => http://www.warr.ac.uk/feed.xml
+    [1] => http://www.warr.ac.uk/feed/vacancies.xml
+    [2] => "/news_events/rss_subscription
+    [3] => "/feed.xml
+)
+
+warrington.ac.uk:
+Array
+(
+    [0] => http://www.warrington.ac.uk/feed.xml
+    [1] => http://www.warrington.ac.uk/feed/vacancies.xml
+    [2] => "/news_events/rss_subscription
+    [3] => "/feed.xml
+)
+
+warwick.ac.uk:
+Array
+(
+    [0] => http://www2.warwick.ac.uk/sitebuilder2/api/rss/sitechanges.rss?page=/
+)
+
+warwickhri.ac.uk:
+Array
+(
+    [0] => http://www2.warwick.ac.uk/sitebuilder2/api/rss/sitechanges.rss?page=/fac/sci/lifesci
+)
+
+webpa.ac.uk:
+Array
+(
+    [0] => http://webpaproject.lboro.ac.uk/feed/
+    [1] => http://webpaproject.lboro.ac.uk/comments/feed/
+)
+
+welbeck.ac.uk:
+Array
+(
+    [0] => "/rss/rss.xml
+    [1] => "/holding/rssfeeds.asp
+)
+
+welfareconditionality.ac.uk:
+Array
+(
+    [0] => http://www.welfareconditionality.ac.uk/feed/
+    [1] => http://www.welfareconditionality.ac.uk/comments/feed/
+)
+
+wellbeing.ac.uk:
+Array
+(
+    [0] => http://www.wellbeing.ac.uk/feed/
+)
+
+wellcome.ac.uk:
+Array
+(
+    [0] => http://feeds2.feedburner.com/wellcometrustnewsandfeatures
+)
+
+welsh-dictionary.ac.uk:
+Array
+(
+    [0] => http://www.welsh-dictionary.ac.uk/?feed=rss2
+    [1] => http://www.welsh-dictionary.ac.uk/?feed=comments-rss2
+)
+
+welshsaints.ac.uk:
+Array
+(
+    [0] => http://www.welshsaints.ac.uk/?feed=rss2
+    [1] => http://www.welshsaints.ac.uk/?feed=comments-rss2
+)
+
+wescfoundation.ac.uk:
+Array
+(
+    [0] => "/?format=feed&type=rss
+)
+
+west-cheshire.ac.uk:
+Array
+(
+    [0] => "/blogrss/
+)
+
+west-thames.ac.uk:
+Array
+(
+    [0] => http://www.west-thames.ac.uk/en/news/index.cfm/rss
+)
+
+westcollegescotland.ac.uk:
+Array
+(
+    [0] => http://www.westcollegescotland.ac.uk/feed.xml
+)
+
+westking.ac.uk:
+Array
+(
+    [0] => http://www.westking.ac.uk/rss
+)
+
+weymouth.ac.uk:
+Array
+(
+    [0] => http://www.weymouth.ac.uk/home/feed/
+)
+
+whelf.ac.uk:
+Array
+(
+    [0] => http://whelf.wordpress.com/feed/
+    [1] => http://whelf.wordpress.com/comments/feed/
+)
+
+whiterose.ac.uk:
+Array
+(
+    [0] => http://www.whiterose.ac.uk/home/feed/
+)
+
+wirad.ac.uk:
+Array
+(
+    [0] => http://wirad.org.uk/feed/
+    [1] => http://wirad.org.uk/comments/feed/
+)
+
+wma.ac.uk:
+Array
+(
+    [0] => "/rss/blogs.aspx?blogid=35
+    [1] => "/rss/blogs.aspx?blogid=36&featureid=663
+    [2] => "/rss/blogs.aspx?blogid=2
+)
+
+wmsf.ac.uk:
+Array
+(
+    [0] => "/rss/blogs.aspx?blogid=35
+    [1] => "/rss/blogs.aspx?blogid=36&featureid=663
+    [2] => "/rss/blogs.aspx?blogid=2
+)
+
+wnsc.ac.uk:
+Array
+(
+    [0] => http://www.wnsc.ac.uk/feed/
+    [1] => http://www.wnsc.ac.uk/comments/feed/
+)
+
+workplacementscotland.ac.uk:
+Array
+(
+    [0] => http://www.workplacementscotland.ac.uk/rss.xml
+)
+
+worthing.ac.uk:
+Array
+(
+    [0] => "/_layouts/listfeed.aspx?list=7bc94c36%2ded3d%2d4762%2d8135%2d6ee5d0ef2609
+)
+
+wrapp.ac.uk:
+Array
+(
+    [0] => http://wrapp.group.shef.ac.uk/?feed=rss2
+    [1] => http://wrapp.group.shef.ac.uk/?feed=comments-rss2
+)
+
+wrdtc.ac.uk:
+Array
+(
+    [0] => http://wrdtc.ac.uk/feed/
+    [1] => http://wrdtc.ac.uk/comments/feed/
+    [2] => http://wrdtc.ac.uk/welcome/feed/
+)
+
+wrekincollege.ac.uk:
+Array
+(
+    [0] => "/rss.xml
+)
+
+writenow.ac.uk:
+Array
+(
+    [0] => http://www.writenow.ac.uk/feed/
+    [1] => http://www.writenow.ac.uk/wp-content/plugins/nextgen-gallery/xml/media-rss.php
+)
+
+wrocah.ac.uk:
+Array
+(
+    [0] => http://www.arts-and-humanities.whiterose.ac.uk/college-of-arts-humanities/feed/
+)
+
+xmas.ac.uk:
+Array
+(
+    [0] => http://www2.warwick.ac.uk/sitebuilder2/api/rss/sitechanges.rss?page=/fac/cross_fac/xmas
+)
+
+xmat.ac.uk:
+Array
+(
+    [0] => http://www.xmat.ac.uk/feed/
+    [1] => http://www.xmat.ac.uk/comments/feed/
+    [2] => http://www.xmat.ac.uk/sample-page/feed/
+)
+
+yale-wrexham.ac.uk:
+Array
+(
+    [0] => http://www.cambria.ac.uk/home/feed/
+)
+
+youngfoundation.ac.uk:
+Array
+(
+    [0] => http://youngfoundation.org/feed/
+    [1] => http://youngfoundation.org/comments/feed/
+    [2] => http://youngfoundation.org/home/feed/
+)
+
+youshare.ac.uk:
+Array
+(
+    [0] => http://www.youshare.ac.uk/?feed=rss2
+    [1] => http://www.youshare.ac.uk/?feed=comments-rss2
+)
+
