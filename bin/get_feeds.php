@@ -1,93 +1,237 @@
 #!/usr/bin/php
-<?php 
+<?php
 
-include "../lib/lastRSS.php";
+include '../lib/lastRSS.php';
 
-$raw_data = json_decode(file_get_contents("/home/ian/Documents/newsthing/docs/example_data_1.json"), true);
-#$raw_data = json_decode(file_get_contents("http://observatory.data.ac.uk/data/observations/latest.json"), true);
+#Database variables.
+$db_host = "localhost";
+$db_name = "newsthing";
+$db_charset = "utf8";
+$db_user = "ian";
+$db_password = "password";
 
-#Creates an array of site-name => (rss-array, date).
-foreach($raw_data as $k => $v)
-{
-	if(!empty($v["site_profile"]["rss"]))
-	{
-		$final_rss = [];
-		#Auto-generates a full rss url for short rss names using the site url.
-		foreach($v["site_profile"]["rss"] as $prelim_rss)
-		{
-			if(substr($prelim_rss, 0, 7) != "http://")
-			{
-				$final_rss[] = $v["site_url"].substr($prelim_rss, 2);
-			}
-			else
-			{
-				$final_rss[] = $prelim_rss;
-			}
-		}
-		$relevant_data[$k] = [$final_rss, $v["crawl"]["crawl_timestamp"]];
-	}
-}
+#Loads data into json file.
+$json_data = json_decode(file_get_contents('http://observatory.data.ac.uk/data/observations/latest.json'), true);
 
-$rss_urls = [];
-foreach($relevant_data as $k => $data)
-{
-	$rss_urls = array_merge($rss_urls, $data[0]);
-}
-
-#Testing lastRSS:
+#Instantiates lastRSS.
 $rss = new lastRSS;
 $rss->cache_dir = '../temp';
 $rss->cache_time = 1200;
 
-$connection = mysqli_connect("localhost", "ian", "password", "newsthing");
-if(mysqli_connect_errno())
+#Connects to database.
+$db = new PDO("mysql:host=$db_host;dbname=$db_name;charset=$db_charset", $db_user, $db_password, array(PDO::ATTR_EMULATE_PREPARES => false, PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+
+$relevant_data = process_json($json_data);
+
+process_institutions($relevant_data);
+
+#Creates an array of institution_pdomain => (rss_array, crawl_date).
+#Means institution pdomains without RSS feeds ARE NOT added to the institutions table.
+function process_json($json_data)
 {
-	echo "Failed to connect to MySQL: ".mysqli_connect_error()."\n";
+	$relevant_data = [];
+	foreach($json_data as $name => $details)
+	{
+		if(!empty($details['site_profile']['rss']))
+		{
+			$final_rss = [];
+			#Auto-generates a full RSS URL for short RSS names using the site URL.
+			foreach($details['site_profile']['rss'] as $prelim_rss)
+			{
+				if(substr($prelim_rss, 0, 7) != 'http://')
+				{
+					$final_rss[] = $details['site_url'].substr($prelim_rss, 2);
+				}
+				else
+				{
+					$final_rss[] = $prelim_rss;
+				}
+			}
+			$relevant_data[$name] = [$final_rss, $details['crawl']['crawl_timestamp']];
+		}
+	}
+	
+	return $relevant_data;
 }
 
-foreach($rss_urls as $url)
-{
-#	show_rss($url);
-} 
-
-function show_rss($url)
-{
-	global $connection;
-	global $rss;
-	global $i;
-	if($rs = $rss->get($url))
+function process_institutions($relevant_data)
+{	
+	$inst_insert_stmt = NULL;
+	foreach($relevant_data as $inst_pdomain => $details)
 	{
+		$institution = create_institution_from_data('placeholder', $inst_pdomain);
+		if(!$inst_insert_stmt)
+		{
+			$inst_insert_stmt = create_insert('institutions', $institution);
+		}
+		$inst_insert_stmt->execute(array_values($institution));
+		process_feeds($inst_pdomain, $details);
+	}
+}
+
+#$name = inst_url
+function process_feeds($inst_pdomain, $details)
+{
+	$inst_id_select_stmt = create_select('institutions', array('inst_id', 'inst_pdomain'));
+	$inst_id_select_stmt->execute(array($inst_pdomain));
+	$inst_id_array = $inst_id_select_stmt->fetchAll();
+	$inst_id = $inst_id_array[0]['inst_id'];
+	foreach($details[0] as $rss_url)
+	{
+		process_single_feed($inst_id, $rss_url, $details[1]);
+	}
+}
+
+function process_single_feed($inst_id, $rss_url, $crawl_date)
+{
+	global $rss;
+
+	$feed_insert_stmt = NULL;
+	if($rs = $rss->get($rss_url))
+	{
+		$feed = create_feed_from_rss($rs);
+		if(!$feed)
+		{
+			return;
+		}
+		$feed['inst_id'] = $inst_id;
+
+		if(!$feed_insert_stmt)
+		{
+			$feed_insert_stmt = create_insert('feeds', $feed);
+		}
+		$feed_insert_stmt->execute(array_values($feed));
+
+		$feed_id_select_stmt = create_select('feeds', array('feed_id', 'feed_url'));
+		$feed_id_select_stmt->execute(array($feed['feed_url']));
+		$feed_id_array = $feed_id_select_stmt->fetchAll();
+		$feed_id = $feed_id_array[0]['feed_id'];
+	
 		foreach($rs['items'] as $item)
 		{
-			mysqli_query($connection, "INSERT INTO crawl_info VALUES ('PLACEHOLDER', '$rs[link]', '$item[title]', '$item[link]', '2014-07-11 10:00:00')");
+			process_post($feed_id, $item);
 		}
 	}
 }
 
-mysqli_close($connection);
-
-/*function show_rss($url)
+function process_post($feed_id, $item)
 {
-	global $rss;
-	if($rs = $rss->get($url))
+	$post_insert_stmt = NULL;
+	$post = create_post_from_rss($item);
+	if(!$post)
 	{
-		echo "\nNEW FEED\n";
-		echo "<a href=\"$rs[link]\">$rs[title]</a>\n";
-		echo "$rs[description]\n\n";
-		foreach ($rs['items'] as $item)
-		{
-			echo "<a href=\"$item[link]\" id=\"$item[title]>TEXT GOES HERE</a>\n";
-#			echo "<a href=\"$item[link]\" title=\"$item[description]\">$item[title]</a>\n";
-		}
-		if ($rs['items_count'] <= 0)
-		{
-#			echo "Sorry, no items found in the RSS file :-(";
-		}
+		return;
 	}
-	else
-	{
-#		echo "Sorry, it's not possible to reach RSS file $url.\n";
-	}
-}*/
+	$post['feed_id'] = $feed_id;
 
-?>
+	if(!$post_insert_stmt)
+	{
+		$post_insert_stmt = create_insert('posts', $post);
+	}
+	$post_insert_stmt->execute(array_values($post));
+}
+
+function create_insert($table_name, $data_array)
+{
+	global $db;
+
+	$column_names = array();
+	$question_marks = array();
+
+	foreach(array_keys($data_array) as $col_name)
+	{
+		$column_names[] = "`$col_name`";
+		$question_marks[] = '?';
+	}
+
+	$sql_insert = "INSERT IGNORE INTO $table_name(".implode(',', $column_names).') VALUES ('.implode(',', $question_marks).')';
+	return $db->prepare($sql_insert);
+}
+
+#TODO
+#Maybe make more sanitised/uniform (custom data structure for data_array).
+function create_select($table_name, $data_array)
+{
+	global $db;
+
+	$retrieve_column_name = $data_array[0];
+	$match_column_name = $data_array[1];
+
+	$sql_select = "SELECT $retrieve_column_name FROM $table_name WHERE $match_column_name = ?";
+
+	return $db->prepare($sql_select); 
+}
+
+function create_institution_from_data($inst_name, $inst_pdomain)
+{
+	$institution = array('inst_name' => $inst_name, 'inst_pdomain' => $inst_pdomain);
+	return $institution;
+}
+
+function create_feed_from_rss($rss_feed)
+{
+	#Maps RSS value key to MySQL column title-required status pair.
+	$field_config = array(
+		'title' => array('db_col_name' => 'feed_title', 'required' => false),
+		'description' => array('db_col_name' => 'feed_desc', 'required' => false),
+		'link' => array('db_col_name' => 'feed_url', 'required' => true)
+		);
+
+	#Createsd the MySQL item, failing and returning false if a required field is missing.
+	$sql_item;
+	foreach($field_config as $rss_id => $f_cfg)
+	{
+		$value = NULL;
+		if(!array_key_exists($rss_id, $rss_feed) && $f_cfg['required'])
+		{
+			error_log("Missing required field $rss_id.\n");
+			return false;
+		}
+		else
+		{
+			$value = $rss_feed[$rss_id];
+		}
+		$sql_item[$f_cfg['db_col_name']] = $value;
+	}
+
+	return $sql_item;
+}
+
+function create_post_from_rss($rss_item)
+{
+	#Maps RSS value key to MySQL column title-required status pair.
+	$field_config = array(
+		'title' => array('db_col_name' => 'post_title', 'required' => false),
+		'description' => array('db_col_name' => 'post_desc', 'required' => false),
+		'pubDate' => array('db_col_name' => 'post_date', 'required' => true),
+		'link' => array('db_col_name' => 'post_url', 'required' => true)
+		);
+
+	#Createsd the MySQL item, failing and returning false if a required field is missing.
+	$sql_item;
+	foreach($field_config as $rss_id => $f_cfg)
+	{
+		$value = NULL;
+		if(!array_key_exists($rss_id, $rss_item) && $f_cfg['required'])
+		{
+			error_log("Missing required field $rss_id.\n");
+			return false;
+		}
+		else
+		{
+			$value = $rss_item[$rss_id];
+		}
+		$sql_item[$f_cfg['db_col_name']] = $value;
+	}
+
+	#Post-processing (currently just formatting date).
+	$sql_item['post_date'] = rss_date_to_mysql_date($sql_item['post_date']);
+
+	return $sql_item;
+}
+
+function rss_date_to_mysql_date($rss_date)
+{
+	$time_from_epoch = strtotime($rss_date);
+	return date('Y-m-d H:i:s', $time_from_epoch);
+}
