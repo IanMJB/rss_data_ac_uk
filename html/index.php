@@ -16,14 +16,14 @@
 </head>
 <body>
 	<h1>Search UK University RSS Feeds</h1>
-	<form name="search" method="post" action="">
+	<form name="search" method="get" action="">
 		Search for: <input type="text" name="query" />
 		<input type="submit" name="search" value="Search" />
 	</form>
 </body>
 <?php
 
-session_start();
+#session_start();
 
 foreach(glob(__DIR__.'/../lib/php-rss-writer-master/Source/Suin/RSSWriter/*Interface.php') as $filename)
 {
@@ -33,100 +33,34 @@ foreach(glob(__DIR__.'/../lib/php-rss-writer-master/Source/Suin/RSSWriter/*.php'
 {
 	include_once $filename;
 }
+include_once __DIR__.'/posts_db_query.php';
 
 use \Suin\RSSWriter\Feed;
 use \Suin\RSSWriter\Channel;
 use \Suin\RSSWriter\Item;
 
-$config = parse_ini_file(__DIR__.'/../secrets.ini');
-
-$db_host = $config['db_host'];
-$db_name = $config['db_name'];
-$db_charset = $config['db_charset'];
-$db_user = $config['db_user'];
-$db_password = $config['db_password'];
-
-if(isset($_POST['query']))
+if(isset($_REQUEST['query']))
 {
-	$db = new PDO("mysql:host=$db_host;dbname=$db_name;charset=$db_charset", $db_user, $db_password, array(PDO::ATTR_EMULATE_PREPARES => false, PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
-	
-	#$posts_select_stmt = create_select('posts', array('inst_pdomain', 'inst_id'));
-	if($_POST['query'] == "")
+	if($_REQUEST['query'] == "")
 	{
 		echo '<h2>Results:</h2>';
 		echo '<p>No search term entered.</p>';
 	}
 	else
 	{
+		$rss_url = "rss.php?";
+		foreach($_REQUEST as $key => $value)
+		{
+			$rss_url .= urlencode($key)."=".urlencode($value)."&";
+		}
 		echo '<h2>Results as RSS:</h2>';
-		echo '<a href="rss.php" target="_blank">Click here for results as RSS.</a>';
+		echo '<a href="'.$rss_url.'" target="_blank">Click here for results as RSS.</a>';
 		echo '<h2>Results:</h2>';
 
-		$feed = new Feed();
-		$channel = new Channel();
-		$channel
-			->title('Search Results for: '.$_POST['query'])
-			->appendTo($feed);
-		$posts = get_posts_with_terms($_POST['query']);
+		$posts = get_posts_with_terms($_REQUEST['query']);
 		foreach($posts as $post)
 		{
 			echo '<p>','<a href="',$post['post_url'],'">',$post['post_title'],'</a>','</p>';
-			$item = new Item();
-			$item
-				->title($post['post_title'])
-				->description($post['post_desc'])
-				->url($post['post_url'])
-				->pubDate(strtotime($post['post_date']))
-				->appendTo($channel);
 		}
-
-		$test = serialize($feed);
-		$_SESSION['feed'] = $test;
-#		header('Content-type: text/xml');	
-	
-#		echo $feed;
 	}
 }
-
-function get_posts_with_terms($term)
-{
-	global $db;
-
-#	$term = "%$term%";
-
-	$sql_select = "SELECT DISTINCT post_title, post_desc, post_date, post_url
-			FROM posts
-			WHERE
-			MATCH(post_title, post_desc)
-			AGAINST(:term1 IN NATURAL LANGUAGE MODE)
-			ORDER BY
-			MATCH(post_title, post_desc)
-			AGAINST(:term2 IN NATURAL LANGUAGE MODE)
-			DESC
-			LIMIT 20;";
-
-#	$sql_select = "SELECT DISTINCT post_title, post_desc, post_date, post_url
-#			FROM posts
-#			WHERE (post_title LIKE :term1 OR post_desc LIKE :term2) AND post_date < NOW()
-#			ORDER BY post_date DESC
-#			LIMIT 10;";
-
-	$sql_select_stmt = $db->prepare($sql_select);
-	$sql_select_stmt->bindValue(':term1', $term);
-	$sql_select_stmt->bindValue(':term2', $term);
-	$sql_select_stmt->execute();
-
-	return $sql_select_stmt->fetchAll();
-}
-
-#function create_select($table_name, $data_array)
-#{
-#	global $db;
-#
-#	$retrieve_column_name = $data_array[0];
-#	$match_column_name = $data_array[1];
-#
-#	$sql_select = "SELECT $retrieve_column_name FROM $table_name WHERE $match_column_name = ?";
-#
-#	return $db->prepare($sql_select);
-#}

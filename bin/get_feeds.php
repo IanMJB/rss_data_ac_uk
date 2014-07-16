@@ -1,21 +1,26 @@
 #!/usr/bin/php
 <?php
 
-include '../lib/lastRSS.php';
+include __DIR__.'/../lib/lastRSS.php';
+
+$config = parse_ini_file(__DIR__.'/../secrets.ini');
 
 #Database variables.
-$db_host = "localhost";
-$db_name = "newsthing";
-$db_charset = "utf8";
-$db_user = "ian";
-$db_password = "password";
+$db_host = $config['db_host'];
+$db_name = $config['db_name'];
+$db_charset = $config['db_charset'];
+$db_user = $config['db_user'];
+$db_password = $config['db_password'];
 
 #Loads data into json file.
-$json_data = json_decode(file_get_contents('http://observatory.data.ac.uk/data/observations/latest.json'), true);
+#$json_data = json_decode(file_get_contents('http://observatory.data.ac.uk/data/observations/latest.json'), true);
+$json_data = json_decode(file_get_contents(__DIR__.'/../docs/example_data_1.json'), true);
+
+echo "json acquired\n";
 
 #Instantiates lastRSS.
 $rss = new lastRSS;
-$rss->cache_dir = '../temp';
+$rss->cache_dir = '../tmp';
 $rss->cache_time = 1200;
 
 #Connects to database.
@@ -65,6 +70,7 @@ function process_institutions($relevant_data)
 			$inst_insert_stmt = create_insert('institutions', $institution);
 		}
 		$inst_insert_stmt->execute(array_values($institution));
+		echo $institution['inst_pdomain']," added.\n";
 		process_feeds($inst_pdomain, $details);
 	}
 }
@@ -207,7 +213,7 @@ function create_post_from_rss($rss_item)
 		'link' => array('db_col_name' => 'post_url', 'required' => true)
 		);
 
-	#Createsd the MySQL item, failing and returning false if a required field is missing.
+	#Creates the MySQL item, failing and returning false if a required field is missing.
 	$sql_item;
 	foreach($field_config as $rss_id => $f_cfg)
 	{
@@ -219,6 +225,11 @@ function create_post_from_rss($rss_item)
 		}
 		else
 		{
+			if($rss_id != 'pubDate')
+			{
+				$rss_item[$rss_id] = str_replace('<![CDATA[', '', $rss_item[$rss_id]);
+				$rss_item[$rss_id] = str_replace(']]>', '', $rss_item[$rss_id]);
+			}
 			$value = $rss_item[$rss_id];
 		}
 		$sql_item[$f_cfg['db_col_name']] = $value;
