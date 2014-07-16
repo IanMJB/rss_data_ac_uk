@@ -19,6 +19,11 @@
 
 <link rel="stylesheet" href="http://network-bar.data.ac.uk/subsite.css" type="text/css">
 
+<style type="text/css">
+	.post{margin-top: 1em;}
+	.rss_link{float: right;}
+</style>
+
 </head>
 <body>
 	<div class="container">
@@ -60,14 +65,17 @@ if(isset($_REQUEST['query']))
 		{
 			$rss_url .= urlencode($key)."=".urlencode($value)."&";
 		}
-		echo '<h2>Results as RSS:</h2>';
-		echo '<a href="'.$rss_url.'" target="_blank">Click here for results as RSS.</a>';
+
+		echo '<h2 class="rss_link">','<a href="'.$rss_url.'" target="_blank">Results as RSS</a>','</h2>';
 		echo '<h2>Results:</h2>';
 
 		$posts = get_posts_with_terms($_REQUEST['query']);
 		foreach($posts as $post)
 		{
-			echo '<p>','<a href="',$post['post_url'],'">',$post['post_title'],'</a>','</p>';
+			echo '<div class="post">';
+			echo '<h3>','<a href="',$post['post_url'],'">',$post['post_title'],'</a>','</h3>';
+			echo '<div class="news_description">',@$post['post_desc'],'</div>';
+			echo '</div>';
 		}
 	}
 }
