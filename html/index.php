@@ -35,7 +35,8 @@
 			</form>
 <?php
 
-#session_start();
+#Changes the default number of recent posts displayed.
+$no_recent_posts = 20;
 
 foreach(glob(__DIR__.'/../lib/php-rss-writer-master/Source/Suin/RSSWriter/*Interface.php') as $filename)
 {
@@ -51,32 +52,37 @@ use \Suin\RSSWriter\Feed;
 use \Suin\RSSWriter\Channel;
 use \Suin\RSSWriter\Item;
 
-if(isset($_REQUEST['query']))
+$rss_url = "rss.php?";
+foreach($_REQUEST as $key => $value)
 {
-	if($_REQUEST['query'] == "")
+	$rss_url .= urlencode($key)."=".urlencode($value)."&";
+}
+echo '<h2 class="rss_link">','<a href="'.$rss_url.'" target="_blank">Results as RSS</a>','</h2>';
+
+if(isset($_REQUEST['query']) && $_REQUEST['query'] != '')
+{
+	echo '<h2>Results:</h2>';
+
+	$posts = get_posts_with_terms($_REQUEST['query']);
+	foreach($posts as $post)
 	{
-		echo '<h2>Results:</h2>';
-		echo '<p>No search term entered.</p>';
+		echo '<div class="post">';
+		echo '<h3>','<a href="',$post['post_url'],'">',$post['post_title'],'</a>','</h3>';
+		echo '<div class="news_description">',@$post['post_desc'],'</div>';
+		echo '</div>';
 	}
-	else
+}
+else
+{
+	echo '<h2>Latest '.$no_recent_posts.' Results:</h2>';
+
+	$posts = get_posts_last_x($no_recent_posts);
+	foreach($posts as $post)
 	{
-		$rss_url = "rss.php?";
-		foreach($_REQUEST as $key => $value)
-		{
-			$rss_url .= urlencode($key)."=".urlencode($value)."&";
-		}
-
-		echo '<h2 class="rss_link">','<a href="'.$rss_url.'" target="_blank">Results as RSS</a>','</h2>';
-		echo '<h2>Results:</h2>';
-
-		$posts = get_posts_with_terms($_REQUEST['query']);
-		foreach($posts as $post)
-		{
-			echo '<div class="post">';
-			echo '<h3>','<a href="',$post['post_url'],'">',$post['post_title'],'</a>','</h3>';
-			echo '<div class="news_description">',@$post['post_desc'],'</div>';
-			echo '</div>';
-		}
+		echo '<div class="post">';
+		echo '<h3>','<a href="',$post['post_url'],'">',$post['post_title'],'</a>','</h3>';
+		echo '<div class="news_description">',@$post['post_desc'],'</div>';
+		echo '</div>';
 	}
 }
 ?>
