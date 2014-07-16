@@ -13,14 +13,21 @@
       <title>UK University Web Observatory: RSS </title>
 <meta name="author" content="Ian Barker">
 
+<!-- Mobile Specific Metas
+  ================================================== -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link rel="stylesheet" href="http://network-bar.data.ac.uk/subsite.css" type="text/css">
+
 </head>
 <body>
-	<h1>Search UK University RSS Feeds</h1>
-	<form name="search" method="get" action="">
-		Search for: <input type="text" name="query" />
-		<input type="submit" name="search" value="Search" />
-	</form>
-</body>
+	<div class="container">
+		<div class="sixteen columns padding_top_30 padding_bottom_20">
+			<h1>Search UK University RSS Feeds</h1>
+			<form name="search" method="get" action="">
+				Search for: <input type="text" name="query" />
+				<input type="submit" name="search" value="Search" />
+			</form>
 <?php
 
 #session_start();
@@ -64,3 +71,10 @@ if(isset($_REQUEST['query']))
 		}
 	}
 }
+?>
+		</div>
+	</div>
+</body>
+</html>
+
+<script type="text/javascript" src="//network-bar.data.ac.uk/network-bar.js"></script>
