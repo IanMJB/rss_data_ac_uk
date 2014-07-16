@@ -1,4 +1,4 @@
-<?php /*<!DOCTYPE html>
+<!DOCTYPE html>
 <!--[if lt IE 7]><html class="ie ie6" lang="en"><![endif]-->
 <!--[if IE 7]><html class="ie ie7" lang="en"><![endif]-->
 <!--[if IE 8]><html class="ie ie8" lang="en"><![endif]-->
@@ -21,15 +21,14 @@
 		<input type="submit" name="search" value="Search" />
 	</form>
 </body>
-
-*/?>
 <?php
+
+session_start();
 
 foreach(glob(__DIR__.'/../lib/php-rss-writer-master/Source/Suin/RSSWriter/*Interface.php') as $filename)
 {
 	include_once $filename;
 }
-
 foreach(glob(__DIR__.'/../lib/php-rss-writer-master/Source/Suin/RSSWriter/*.php') as $filename)
 {
 	include_once $filename;
@@ -52,23 +51,26 @@ if(isset($_POST['query']))
 	$db = new PDO("mysql:host=$db_host;dbname=$db_name;charset=$db_charset", $db_user, $db_password, array(PDO::ATTR_EMULATE_PREPARES => false, PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
 	
 	#$posts_select_stmt = create_select('posts', array('inst_pdomain', 'inst_id'));
-
-#	echo '<h2>Results:</h2>';
 	if($_POST['query'] == "")
 	{
+		echo '<h2>Results:</h2>';
 		echo '<p>No search term entered.</p>';
 	}
 	else
 	{
+		echo '<h2>Results as RSS:</h2>';
+		echo '<a href="rss.php" target="_blank">Click here for results as RSS.</a>';
+		echo '<h2>Results:</h2>';
+
 		$feed = new Feed();
 		$channel = new Channel();
 		$channel
-			->title('Search Results')
+			->title('Search Results for: '.$_POST['query'])
 			->appendTo($feed);
 		$posts = get_posts_with_terms($_POST['query']);
 		foreach($posts as $post)
 		{
-#			echo '<p>','<a href="',$post['post_url'],'">',$post['post_title'],'</a>','</p>';
+			echo '<p>','<a href="',$post['post_url'],'">',$post['post_title'],'</a>','</p>';
 			$item = new Item();
 			$item
 				->title($post['post_title'])
@@ -78,9 +80,11 @@ if(isset($_POST['query']))
 				->appendTo($channel);
 		}
 
-		header('Content-type: text/xml');	
+		$test = serialize($feed);
+		$_SESSION['feed'] = $test;
+#		header('Content-type: text/xml');	
 	
-		echo $feed;
+#		echo $feed;
 	}
 }
 
