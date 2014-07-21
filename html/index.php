@@ -38,19 +38,19 @@
 #Changes the default number of recent posts displayed.
 $no_recent_posts = 20;
 
-foreach(glob(__DIR__.'/../lib/php-rss-writer-master/Source/Suin/RSSWriter/*Interface.php') as $filename)
+/*foreach(glob(__DIR__.'/../lib/php-rss-writer-master/Source/Suin/RSSWriter/*Interface.php') as $filename)
 {
 	include_once $filename;
 }
 foreach(glob(__DIR__.'/../lib/php-rss-writer-master/Source/Suin/RSSWriter/*.php') as $filename)
 {
 	include_once $filename;
-}
-include_once __DIR__.'/posts_db_query.php';
+}*/
+include_once __DIR__.'/../lib/posts_db_query.php';
 
-use \Suin\RSSWriter\Feed;
-use \Suin\RSSWriter\Channel;
-use \Suin\RSSWriter\Item;
+#use \Suin\RSSWriter\Feed;
+#use \Suin\RSSWriter\Channel;
+#use \Suin\RSSWriter\Item;
 
 $rss_url = "rss.php?";
 foreach($_REQUEST as $key => $value)
@@ -64,11 +64,12 @@ if(isset($_REQUEST['query']) && $_REQUEST['query'] != '')
 	echo '<h2>Results:</h2>';
 
 	$posts = get_posts_with_terms($_REQUEST['query']);
+
 	foreach($posts as $post)
 	{
 		echo '<div class="post">';
 		echo '<h3>','<a href="',$post['post_url'],'">',$post['post_title'],'</a>','</h3>';
-		echo '<div class="news_description">',@$post['post_desc'],'</div>';
+		echo '<div class="news_description">',html_entity_decode($post['post_desc']),'</div>';
 		echo '</div>';
 	}
 }
@@ -81,7 +82,7 @@ else
 	{
 		echo '<div class="post">';
 		echo '<h3>','<a href="',$post['post_url'],'">',$post['post_title'],'</a>','</h3>';
-		echo '<div class="news_description">',@$post['post_desc'],'</div>';
+		echo '<div class="news_description">',html_entity_decode($post['post_desc']),'</div>';
 		echo '</div>';
 	}
 }

@@ -1,17 +1,29 @@
 <?php
 
 $db;
-$config = parse_ini_file(__DIR__.'/../secrets.ini');
+$config = parse_ini_file(__DIR__.'/../secrets.ini', true);
 
 function get_posts_with_terms($term)
 {
 	$db = init_db();
 
+/*	$sql_select = "SELECT DISTINCT post_title, post_desc, post_date, post_url, title_url_hash
+                        FROM posts
+                        WHERE
+                        (post_title LIKE :term1
+                        OR post_desc LIKE :term2)
+                        AND post_date < NOW()
+                        ORDER BY post_date
+                        DESC
+                        LIMIT 20;";
+	$term = "%".preg_replace('/\s+/', "%", $term)."%";*/
+
 	$sql_select = "SELECT DISTINCT post_title, post_desc, post_date, post_url, title_url_hash
 			FROM posts
 			WHERE
-			MATCH(post_title, post_desc)
-			AGAINST(:term1 IN NATURAL LANGUAGE MODE)
+			(MATCH(post_title, post_desc)
+			AGAINST(:term1 IN NATURAL LANGUAGE MODE))
+			AND post_date < NOW()
 			ORDER BY
 			MATCH(post_title, post_desc)
 			AGAINST(:term2 IN NATURAL LANGUAGE MODE)
@@ -32,6 +44,7 @@ function get_posts_last_x($number)
 
 	$sql_select = "SELECT DISTINCT post_title, post_desc, post_date, post_url, title_url_hash
 			FROM posts
+			WHERE post_date < NOW()
 			ORDER BY
 			post_date
 			DESC
@@ -48,6 +61,9 @@ function init_db()
 {
 	global $db;
 	global $config;
+
+	$db_version = $config['db'];
+	$config = $config[$db_version];
 	
 	if(!isset($db))
 	{

@@ -1,9 +1,12 @@
 #!/usr/bin/php
+
 <?php
 
 include __DIR__.'/../lib/lastRSS.php';
 
 $config = parse_ini_file(__DIR__.'/../secrets.ini');
+$db_version = $config['db'];
+$config = $config[$db_version];
 
 #Database variables.
 $db_host = $config['db_host'];
@@ -13,8 +16,8 @@ $db_user = $config['db_user'];
 $db_password = $config['db_password'];
 
 #Loads data into json file.
-#$json_data = json_decode(file_get_contents('http://observatory.data.ac.uk/data/observations/latest.json'), true);
-$json_data = json_decode(file_get_contents(__DIR__.'/../docs/example_data_1.json'), true);
+$json_data = json_decode(file_get_contents('http://observatory.data.ac.uk/data/observations/latest.json'), true);
+#$json_data = json_decode(file_get_contents(__DIR__.'/../docs/example_data_1.json'), true);
 
 echo "json acquired\n";
 
@@ -170,6 +173,10 @@ function create_select($table_name, $data_array)
 
 function create_institution_from_data($inst_name, $inst_pdomain)
 {
+	#TODO
+	#Check if fixes - forces to UTF-8.
+	$inst_name = iconv(mb_detect_encoding($inst_name, mb_detect_order(), true), 'UTF-8', $inst_name);
+	$inst_pdomain = iconv(mb_detect_encoding($inst_pdomain, mb_detect_order(), true), 'UTF-8', $inst_pdomain);
 	$institution = array('inst_name' => $inst_name, 'inst_pdomain' => $inst_pdomain);
 	return $institution;
 }
@@ -195,6 +202,9 @@ function create_feed_from_rss($rss_feed)
 		}
 		else
 		{
+			#TODO
+			#Check if fixes - forces to UTF-8.
+			$rss_feed[$rss_id] = iconv(mb_detect_encoding($rss_feed[$rss_id], mb_detect_order(), true), 'UTF-8', $rss_feed[$rss_id]);
 			$value = $rss_feed[$rss_id];
 		}
 		$sql_item[$f_cfg['db_col_name']] = $value;
@@ -230,6 +240,9 @@ function create_post_from_rss($rss_item)
 				$rss_item[$rss_id] = str_replace('<![CDATA[', '', $rss_item[$rss_id]);
 				$rss_item[$rss_id] = str_replace(']]>', '', $rss_item[$rss_id]);
 			}
+			#TODO
+			#Check if fixes - forces to UTF-8.
+			$rss_item[$rss_id] = iconv(mb_detect_encoding($rss_item[$rss_id], mb_detect_order(), true), 'UTF-8', $rss_item[$rss_id]);
 			$value = $rss_item[$rss_id];
 		}
 		$sql_item[$f_cfg['db_col_name']] = $value;

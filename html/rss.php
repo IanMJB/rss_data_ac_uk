@@ -1,7 +1,5 @@
 <?php 
 
-session_start();
-
 foreach(glob(__DIR__.'/../lib/php-rss-writer-master/Source/Suin/RSSWriter/*Interface.php') as $filename)
 {
 	include_once $filename;
@@ -10,7 +8,7 @@ foreach(glob(__DIR__.'/../lib/php-rss-writer-master/Source/Suin/RSSWriter/*.php'
 {
 	include_once $filename;
 }
-include_once __DIR__.'/posts_db_query.php';
+include_once __DIR__.'/../lib/posts_db_query.php';
 
 use \Suin\RSSWriter\Feed;
 use \Suin\RSSWriter\Channel;
@@ -18,19 +16,28 @@ use \Suin\RSSWriter\Item;
 
 header('Content-type: text/xml');
 
+$query = (isset($_REQUEST['query'])) ? $_REQUEST['query'] : '';
+
 $feed = new Feed();
 $channel = new Channel();
 $channel
-	->title('Search results for: '.$_REQUEST['query'])
+	->title('Search results for: '.$query)
+	->description('search results for: '.$query)
+	->url('https://'.$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'])
+	->language('en-GB')
+	->copyright('')
+	->pubDate(time())
+	->lastBuildDate(time())
+	->ttl(60)
 	->appendTo($feed);
 
-$posts = get_posts_with_terms($_REQUEST['query']);
+$posts = get_posts_with_terms($query);
 foreach($posts as $post)
 {
 	$item = new Item();
 	$item
 		->title($post['post_title'])
-		->description($post['post_desc'])
+		->description(html_entity_decode($post['post_desc']))
 		->url($post['post_url'])
 		->pubDate(strtotime($post['post_date']))
 		->appendTo($channel);
