@@ -3,8 +3,9 @@
 <?php
 
 include __DIR__.'/../lib/lastRSS.php';
+include __DIR__.'/DB_Utilities.php';
 
-$config = parse_ini_file(__DIR__.'/../secrets.ini');
+$config = parse_ini_file(__DIR__.'/../secrets.ini', true);
 $db_version = $config['db'];
 $config = $config[$db_version];
 
@@ -17,19 +18,24 @@ $db_password = $config['db_password'];
 
 #Loads data into json file.
 $json_data = json_decode(file_get_contents('http://observatory.data.ac.uk/data/observations/latest.json'), true);
-#$json_data = json_decode(file_get_contents(__DIR__.'/../docs/example_data_1.json'), true);
 
-echo "json acquired\n";
+echo 'JSON data acquired.', "\n";
 
 #Instantiates lastRSS.
 $rss = new lastRSS;
 $rss->cache_dir = '../tmp';
 $rss->cache_time = 1200;
 
+#TODO
+#Unhack global.
 #Connects to database.
 $db = new PDO("mysql:host=$db_host;dbname=$db_name;charset=$db_charset", $db_user, $db_password, array(PDO::ATTR_EMULATE_PREPARES => false, PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
 
+echo 'Database connected.', "\n";
+
 $relevant_data = process_json($json_data);
+
+echo 'JSON processed.', "\n";
 
 process_institutions($relevant_data);
 
@@ -63,14 +69,18 @@ function process_json($json_data)
 }
 
 function process_institutions($relevant_data)
-{	
+{
+	#TODO
+	#Un-hack $db.
+	global $db;
+	
 	$inst_insert_stmt = NULL;
 	foreach($relevant_data as $inst_pdomain => $details)
 	{
 		$institution = create_institution_from_data('placeholder', $inst_pdomain);
 		if(!$inst_insert_stmt)
 		{
-			$inst_insert_stmt = create_insert('institutions', $institution);
+			$inst_insert_stmt = DB_Utilities::create_insert($db, 'institutions', $institution);
 		}
 		$inst_insert_stmt->execute(array_values($institution));
 		echo $institution['inst_pdomain']," added.\n";
@@ -78,10 +88,13 @@ function process_institutions($relevant_data)
 	}
 }
 
-#$name = inst_url
 function process_feeds($inst_pdomain, $details)
 {
-	$inst_id_select_stmt = create_select('institutions', array('inst_id', 'inst_pdomain'));
+	#TODO
+	#Un-hack $db.
+	global $db;
+	
+	$inst_id_select_stmt = DB_Utilities::create_select($db, 'institutions', array('inst_id', 'inst_pdomain'));
 	$inst_id_select_stmt->execute(array($inst_pdomain));
 	$inst_id_array = $inst_id_select_stmt->fetchAll();
 	$inst_id = $inst_id_array[0]['inst_id'];
@@ -93,6 +106,9 @@ function process_feeds($inst_pdomain, $details)
 
 function process_single_feed($inst_id, $rss_url, $crawl_date)
 {
+	#TODO
+	#Un-hack $db/$rss.
+	global $db;
 	global $rss;
 
 	$feed_insert_stmt = NULL;
@@ -107,11 +123,12 @@ function process_single_feed($inst_id, $rss_url, $crawl_date)
 
 		if(!$feed_insert_stmt)
 		{
-			$feed_insert_stmt = create_insert('feeds', $feed);
+			$feed_insert_stmt = DB_Utilities::create_insert($db, 'feeds', $feed);
 		}
 		$feed_insert_stmt->execute(array_values($feed));
+		echo 'Feed added.', "\n";
 
-		$feed_id_select_stmt = create_select('feeds', array('feed_id', 'feed_url'));
+		$feed_id_select_stmt = DB_Utilities::create_select($db, 'feeds', array('feed_id', 'feed_url'));
 		$feed_id_select_stmt->execute(array($feed['feed_url']));
 		$feed_id_array = $feed_id_select_stmt->fetchAll();
 		$feed_id = $feed_id_array[0]['feed_id'];
@@ -125,6 +142,10 @@ function process_single_feed($inst_id, $rss_url, $crawl_date)
 
 function process_post($feed_id, $item)
 {
+	#TODO
+	#Un-hack $db.
+	global $db;
+
 	$post_insert_stmt = NULL;
 	$post = create_post_from_rss($item);
 	if(!$post)
@@ -135,40 +156,10 @@ function process_post($feed_id, $item)
 
 	if(!$post_insert_stmt)
 	{
-		$post_insert_stmt = create_insert('posts', $post);
+		$post_insert_stmt = DB_Utilities::create_insert($db, 'posts', $post);
 	}
 	$post_insert_stmt->execute(array_values($post));
-}
-
-function create_insert($table_name, $data_array)
-{
-	global $db;
-
-	$column_names = array();
-	$question_marks = array();
-
-	foreach(array_keys($data_array) as $col_name)
-	{
-		$column_names[] = "`$col_name`";
-		$question_marks[] = '?';
-	}
-
-	$sql_insert = "INSERT IGNORE INTO $table_name(".implode(',', $column_names).') VALUES ('.implode(',', $question_marks).')';
-	return $db->prepare($sql_insert);
-}
-
-#TODO
-#Maybe make more sanitised/uniform (custom data structure for data_array).
-function create_select($table_name, $data_array)
-{
-	global $db;
-
-	$retrieve_column_name = $data_array[0];
-	$match_column_name = $data_array[1];
-
-	$sql_select = "SELECT $retrieve_column_name FROM $table_name WHERE $match_column_name = ?";
-
-	return $db->prepare($sql_select); 
+	echo 'Post added.', "\n";
 }
 
 function create_institution_from_data($inst_name, $inst_pdomain)
@@ -249,13 +240,7 @@ function create_post_from_rss($rss_item)
 	}
 
 	#Post-processing (currently just formatting date).
-	$sql_item['post_date'] = rss_date_to_mysql_date($sql_item['post_date']);
+	$sql_item['post_date'] = DB_Utilities::rss_date_to_mysql_date($sql_item['post_date']);
 
 	return $sql_item;
-}
-
-function rss_date_to_mysql_date($rss_date)
-{
-	$time_from_epoch = strtotime($rss_date);
-	return date('Y-m-d H:i:s', $time_from_epoch);
 }
