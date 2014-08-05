@@ -38,19 +38,7 @@
 #Changes the default number of recent posts displayed.
 $no_recent_posts = 20;
 
-/*foreach(glob(__DIR__.'/../lib/php-rss-writer-master/Source/Suin/RSSWriter/*Interface.php') as $filename)
-{
-	include_once $filename;
-}
-foreach(glob(__DIR__.'/../lib/php-rss-writer-master/Source/Suin/RSSWriter/*.php') as $filename)
-{
-	include_once $filename;
-}*/
 include_once __DIR__.'/../lib/posts_db_query.php';
-
-#use \Suin\RSSWriter\Feed;
-#use \Suin\RSSWriter\Channel;
-#use \Suin\RSSWriter\Item;
 
 $rss_url = "rss.php?";
 foreach($_REQUEST as $key => $value)
@@ -69,6 +57,7 @@ if(isset($_REQUEST['query']) && $_REQUEST['query'] != '')
 	{
 		echo '<div class="post">';
 		echo '<h3>','<a href="',$post['post_url'],'">',$post['post_title'],'</a>','</h3>';
+#		echo '<div class="news_description">',html_entity_decode(iconv(mb_detect_encoding(@$post['post_desc'], mb_detect_order(), true), 'UTF-8', @$post['post_desc'])),'</div>';
 		echo '<div class="news_description">',html_entity_decode($post['post_desc']),'</div>';
 		echo '</div>';
 	}
@@ -82,6 +71,7 @@ else
 	{
 		echo '<div class="post">';
 		echo '<h3>','<a href="',$post['post_url'],'">',$post['post_title'],'</a>','</h3>';
+#		echo '<div class="news_description">',html_entity_decode(iconv(mb_detect_encoding(@$post['post_desc'], mb_detect_order(), true), 'UTF-8', @$post['post_desc'])),'</div>';
 		echo '<div class="news_description">',html_entity_decode($post['post_desc']),'</div>';
 		echo '</div>';
 	}

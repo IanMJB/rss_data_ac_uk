@@ -83,7 +83,7 @@ function process_institutions($relevant_data)
 			$inst_insert_stmt = DB_Utilities::create_insert($db, 'institutions', $institution);
 		}
 		$inst_insert_stmt->execute(array_values($institution));
-		echo $institution['inst_pdomain']," added.\n";
+		echo $institution['inst_pdomain'], ' added.', "\n";
 		process_feeds($inst_pdomain, $details);
 	}
 }
@@ -126,7 +126,7 @@ function process_single_feed($inst_id, $rss_url, $crawl_date)
 			$feed_insert_stmt = DB_Utilities::create_insert($db, 'feeds', $feed);
 		}
 		$feed_insert_stmt->execute(array_values($feed));
-		echo 'Feed added.', "\n";
+#		echo $feed['feed_url'], ' added.', "\n";
 
 		$feed_id_select_stmt = DB_Utilities::create_select($db, 'feeds', array('feed_id', 'feed_url'));
 		$feed_id_select_stmt->execute(array($feed['feed_url']));
@@ -159,7 +159,7 @@ function process_post($feed_id, $item)
 		$post_insert_stmt = DB_Utilities::create_insert($db, 'posts', $post);
 	}
 	$post_insert_stmt->execute(array_values($post));
-	echo 'Post added.', "\n";
+#	echo $post['post_url'], ' added.', "\n";
 }
 
 function create_institution_from_data($inst_name, $inst_pdomain)

@@ -7,17 +7,6 @@ function get_posts_with_terms($term)
 {
 	$db = init_db();
 
-/*	$sql_select = "SELECT DISTINCT post_title, post_desc, post_date, post_url, title_url_hash
-                        FROM posts
-                        WHERE
-                        (post_title LIKE :term1
-                        OR post_desc LIKE :term2)
-                        AND post_date < NOW()
-                        ORDER BY post_date
-                        DESC
-                        LIMIT 20;";
-	$term = "%".preg_replace('/\s+/', "%", $term)."%";*/
-
 	$sql_select = "SELECT DISTINCT post_title, post_desc, post_date, post_url, title_url_hash
 			FROM posts
 			WHERE
