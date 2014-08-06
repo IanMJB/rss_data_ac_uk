@@ -1,0 +1,6 @@
+Template for script to be run be cronjob to run get_feeds.php and pump the output to a log file.
+
+#!/bin/bash
+
+start=$(date +"%d_%m_%Y")
+php <abs_path>/bin/get_feeds.php > <abs_path>/docs/cron_logs/log_$start.txt
