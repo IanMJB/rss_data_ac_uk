@@ -16,8 +16,7 @@ function get_posts_with_terms($term)
 			ORDER BY
 			MATCH(post_title, post_desc)
 			AGAINST(:term2 IN NATURAL LANGUAGE MODE)
-			DESC
-			LIMIT 20;";
+			DESC";
 
 	$sql_select_stmt = $db->prepare($sql_select);
 	$sql_select_stmt->bindValue(':term1', $term);

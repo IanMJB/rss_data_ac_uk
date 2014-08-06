@@ -43,12 +43,12 @@ process_institutions($relevant_data);
 #Means institution pdomains without RSS feeds ARE NOT added to the institutions table.
 function process_json($json_data)
 {
-	$relevant_data = [];
+	$relevant_data = array();
 	foreach($json_data as $name => $details)
 	{
 		if(!empty($details['site_profile']['rss']))
 		{
-			$final_rss = [];
+			$final_rss = array();
 			#Auto-generates a full RSS URL for short RSS names using the site URL.
 			foreach($details['site_profile']['rss'] as $prelim_rss)
 			{
@@ -61,7 +61,7 @@ function process_json($json_data)
 					$final_rss[] = $prelim_rss;
 				}
 			}
-			$relevant_data[$name] = [$final_rss, $details['crawl']['crawl_timestamp']];
+			$relevant_data[$name] = array($final_rss, $details['crawl']['crawl_timestamp']);
 		}
 	}
 	

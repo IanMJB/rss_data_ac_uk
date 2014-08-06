@@ -25,6 +25,7 @@ $channel = new Channel();
 
 if(isset($_REQUEST['query']) && $_REQUEST['query'] != '')
 {
+	$query = $_REQUEST['query'];
 	$channel
 		->title('Search results for: '.$query)
 		->description('search results for: '.$query)
