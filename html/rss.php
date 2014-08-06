@@ -43,7 +43,7 @@ if(isset($_REQUEST['query']) && $_REQUEST['query'] != '')
 		$item = new Item();
 		$item
 			->title($post['post_title'])
-			->description(html_entity_decode($post['post_desc']))
+			->description(html_entity_decode($post['post_desc'], ENT_QUOTES, 'UTF-8'))
 			->url($post['post_url'])
 			->pubDate(strtotime($post['post_date']))
 			->appendTo($channel);
@@ -70,7 +70,7 @@ else
 		$item = new Item();
 		$item
 			->title($post['post_title'])
-			->description(html_entity_decode($post['post_desc']))
+			->description(html_entity_decode($post['post_desc'], ENT_QUOTES, 'UTF-8'))
 			->url($post['post_url'])
 			->pubDate(strtotime($post['post_date']))
 			->appendTo($channel);

@@ -58,7 +58,7 @@ if(isset($_REQUEST['query']) && $_REQUEST['query'] != '')
 		echo '<div class="post">';
 		echo '<h3>','<a href="',$post['post_url'],'">',$post['post_title'],'</a>','</h3>';
 #		echo '<div class="news_description">',html_entity_decode(iconv(mb_detect_encoding(@$post['post_desc'], mb_detect_order(), true), 'UTF-8', @$post['post_desc'])),'</div>';
-		echo '<div class="news_description">',html_entity_decode($post['post_desc']),'</div>';
+		echo '<div class="news_description">',html_entity_decode($post['post_desc'], ENT_QUOTES, 'UTF-8'),'</div>';
 		echo '</div>';
 	}
 }
@@ -72,7 +72,7 @@ else
 		echo '<div class="post">';
 		echo '<h3>','<a href="',$post['post_url'],'">',$post['post_title'],'</a>','</h3>';
 #		echo '<div class="news_description">',html_entity_decode(iconv(mb_detect_encoding(@$post['post_desc'], mb_detect_order(), true), 'UTF-8', @$post['post_desc'])),'</div>';
-		echo '<div class="news_description">',html_entity_decode($post['post_desc']),'</div>';
+		echo '<div class="news_description">',html_entity_decode($post['post_desc'], ENT_QUOTES, 'UTF-8'),'</div>';
 		echo '</div>';
 	}
 }
