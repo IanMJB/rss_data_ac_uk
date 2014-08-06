@@ -2,6 +2,8 @@
 
 <?php
 
+echo 'INIT START', "\n";
+
 include __DIR__.'/../lib/lastRSS.php';
 include __DIR__.'/DB_Utilities.php';
 
@@ -16,6 +18,8 @@ $db_charset = $config['db_charset'];
 $db_user = $config['db_user'];
 $db_password = $config['db_password'];
 
+echo 'Files included and variables set.', "\n";
+
 #Loads data into json file.
 $json_data = json_decode(file_get_contents('http://observatory.data.ac.uk/data/observations/latest.json'), true);
 
@@ -25,6 +29,8 @@ echo 'JSON data acquired.', "\n";
 $rss = new lastRSS;
 $rss->cache_dir = '../tmp';
 $rss->cache_time = 1200;
+
+echo 'lastRSS instantiated.', "\n";
 
 #TODO
 #Unhack global.
@@ -36,8 +42,11 @@ echo 'Database connected.', "\n";
 $relevant_data = process_json($json_data);
 
 echo 'JSON processed.', "\n";
+echo 'INIT END', "\n\n";
 
+echo 'PROCESSING START', "\n";
 process_institutions($relevant_data);
+echo 'PROCESSING END';
 
 #Creates an array of institution_pdomain => (rss_array, crawl_date).
 #Means institution pdomains without RSS feeds ARE NOT added to the institutions table.
@@ -83,7 +92,7 @@ function process_institutions($relevant_data)
 			$inst_insert_stmt = DB_Utilities::create_insert($db, 'institutions', $institution);
 		}
 		$inst_insert_stmt->execute(array_values($institution));
-		echo $institution['inst_pdomain'], ' added.', "\n";
+		echo 'Institution ', $institution['inst_pdomain'], ' added.', "\n";
 		process_feeds($inst_pdomain, $details);
 	}
 }
@@ -126,7 +135,7 @@ function process_single_feed($inst_id, $rss_url, $crawl_date)
 			$feed_insert_stmt = DB_Utilities::create_insert($db, 'feeds', $feed);
 		}
 		$feed_insert_stmt->execute(array_values($feed));
-#		echo $feed['feed_url'], ' added.', "\n";
+		echo 'Feed ', $feed['feed_url'], ' added.', "\n";
 
 		$feed_id_select_stmt = DB_Utilities::create_select($db, 'feeds', array('feed_id', 'feed_url'));
 		$feed_id_select_stmt->execute(array($feed['feed_url']));
@@ -159,7 +168,7 @@ function process_post($feed_id, $item)
 		$post_insert_stmt = DB_Utilities::create_insert($db, 'posts', $post);
 	}
 	$post_insert_stmt->execute(array_values($post));
-#	echo $post['post_url'], ' added.', "\n";
+	echo 'Post ', $post['post_url'], ' added.', "\n";
 }
 
 function create_institution_from_data($inst_name, $inst_pdomain)
