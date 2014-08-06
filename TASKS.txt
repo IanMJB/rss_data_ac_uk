@@ -1,3 +1,0 @@
-In rss.php make it choose between which function to call - based on search query or most recent (if no query entered). Could do with better separation.
-Test encoding issues/HTML characters.
-Cron job.
