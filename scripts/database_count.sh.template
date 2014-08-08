@@ -1,0 +1,14 @@
+#!/bin/bash
+
+db_user=
+db_pass=
+db_name=
+
+start=$(date +"%d-%m-%Y %H:%M:%S")
+echo $start
+institution_count=`mysql $db_name -u$db_user -p$db_pass --skip-column-names -e "SELECT COUNT(*) FROM institutions"`
+echo "instituions,$institution_count"
+feed_count=`mysql $db_name -u$db_user -p$db_pass --skip-column-names -e "SELECT COUNT(*) FROM feeds"`
+echo "feeds,$feed_count"
+post_count=`mysql $db_name -u$db_user -p$db_pass --skip-column-names -e "SELECT COUNT(*) FROM posts"`
+echo "posts,$post_count"

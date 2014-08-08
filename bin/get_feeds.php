@@ -103,7 +103,7 @@ function process_feeds($inst_pdomain, $details)
 	#Un-hack $db.
 	global $db;
 	
-	$inst_id_select_stmt = DB_Utilities::create_select($db, 'institutions', array('inst_id', 'inst_pdomain'));
+	$inst_id_select_stmt = DB_Utilities::create_select_single($db, 'institutions', array('inst_id', 'inst_pdomain'));
 	$inst_id_select_stmt->execute(array($inst_pdomain));
 	$inst_id_array = $inst_id_select_stmt->fetchAll();
 	$inst_id = $inst_id_array[0]['inst_id'];
@@ -137,7 +137,7 @@ function process_single_feed($inst_id, $rss_url, $crawl_date)
 		$feed_insert_stmt->execute(array_values($feed));
 		echo 'Feed ', $feed['feed_url'], ' added.', "\n";
 
-		$feed_id_select_stmt = DB_Utilities::create_select($db, 'feeds', array('feed_id', 'feed_url'));
+		$feed_id_select_stmt = DB_Utilities::create_select_single($db, 'feeds', array('feed_id', 'feed_url'));
 		$feed_id_select_stmt->execute(array($feed['feed_url']));
 		$feed_id_array = $feed_id_select_stmt->fetchAll();
 		$feed_id = $feed_id_array[0]['feed_id'];
@@ -155,20 +155,64 @@ function process_post($feed_id, $item)
 	#Un-hack $db.
 	global $db;
 
+	$url_select_stmt = NULL;
 	$post_insert_stmt = NULL;
+	$post_update_stmt = NULL;
 	$post = create_post_from_rss($item);
 	if(!$post)
 	{
 		return;
 	}
 	$post['feed_id'] = $feed_id;
+	
+###TEST
+	if(!$url_select_stmt)
+	{
+		$url_select_stmt = DB_Utilities::create_select_all($db, 'posts', 'post_url');
+	}
+	$url_select_stmt->execute(array($post['post_url']));
+	$url_select_array = $url_select_stmt->fetchAll();
+	if(!empty($url_select_array))
+	{
+		$url_select_array = $url_select_array[0];
+		if($url_select_array['title_url_hash'] !== $post['title_url_hash'])
+		{
+			if(!$post_update_stmt)
+			{
+				$post_update_stmt = DB_Utilities::create_posts_update($db, 'posts', $post);
+			}
+			$reformatted_post_array = array(
+							'post_title'		=> $post['post_title'],
+							'post_desc'		=> $post['post_desc'],
+							'post_date'		=> $post['post_date'],
+							'feed_id'		=> $post['feed_id'],
+							'title_url_hash'	=> $post['title_url_hash']
+						       );
+			$post_update_stmt->execute($reformatted_post_array);
+			echo 'Modified post, updated: ', $post['post_url'], "\n";
+		}
+		else
+		{
+			echo 'Duplicate post, ignored: ', $post['post_url'], "\n";
+		}
+	}
+	else
+	{
+		if(!$post_insert_stmt)
+		{
+			$post_insert_stmt = DB_Utilities::create_insert($db, 'posts', $post);
+		}
+		$post_insert_stmt->execute(array_values($post));
+		echo 'New post, added: ', $post['post_url'], "\n";
+	}
+###
 
-	if(!$post_insert_stmt)
+/*	if(!$post_insert_stmt)
 	{
 		$post_insert_stmt = DB_Utilities::create_insert($db, 'posts', $post);
 	}
 	$post_insert_stmt->execute(array_values($post));
-	echo 'Post ', $post['post_url'], ' added.', "\n";
+	echo 'Post ', $post['post_url'], ' added.', "\n";*/
 }
 
 function create_institution_from_data($inst_name, $inst_pdomain)
@@ -250,6 +294,7 @@ function create_post_from_rss($rss_item)
 
 	#Post-processing (currently just formatting date).
 	$sql_item['post_date'] = DB_Utilities::rss_date_to_mysql_date($sql_item['post_date']);
+	$sql_item['title_url_hash'] = hash('md5', $sql_item['post_title'].$sql_item['post_url']);
 
 	return $sql_item;
 }

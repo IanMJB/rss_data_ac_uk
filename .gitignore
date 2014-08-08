@@ -1,3 +1,6 @@
 tmp
 secrets.ini
+rss_vm_passwords
 rss.db
+scripts/rss_cron_script.sh
+scripts/database_count.sh
