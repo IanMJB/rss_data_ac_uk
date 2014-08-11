@@ -4,3 +4,4 @@ Template for script to be run be cronjob to run get_feeds.php and pump the outpu
 
 start=$(date +"%d_%m_%Y")
 php <abs_path>/bin/get_feeds.php > <abs_path>/docs/cron_logs/log_$start.txt
+php <abs_path>/bin/database_count.php > <abs_path>/docs/db_counts/count_$start.txt
