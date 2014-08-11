@@ -48,6 +48,13 @@ class DB_Utilities
 
 		return $db->prepare($sql_select);
 	}
+
+	function create_select_count($db, $table_name)
+	{
+		$sql_select = "SELECT COUNT(*) FROM $table_name";
+
+		return $db->prepare($sql_select);
+	}
 	
 	function rss_date_to_mysql_date($rss_date)
 	{
