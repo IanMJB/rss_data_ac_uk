@@ -17,6 +17,23 @@ class DB_Utilities
 		return $db->prepare($sql_insert);
 	}
 
+	#Expects $update_array as a k => v array of column title => data.
+	#$where_array as a single-element k => v array of column title => data.
+	function create_update($db, $table_name, $update_array, $where_array)
+	{
+		$column_names	= array();
+		$where_column	= array_keys($where_array)[0];
+
+		foreach(array_keys($update_array) as $column_name)
+		{
+			$column_names[]		= "`$column_name` = ?";
+		}
+
+		$sql_update	= "UPDATE $table_name SET ".implode(', ', $column_names)." WHERE ".array_keys($where_array)[0]." = ?";
+
+		return $db->prepare($sql_update);
+	}
+
 	#TODO
 	#Sadly specific, make more general if possible.
 	function create_posts_update($db, $table_name, $data_array)
