@@ -28,7 +28,7 @@
 <body>
 	<div class="container">
 		<div class="sixteen columns padding_top_30 padding_bottom_20">
-			<h1>Search UK University RSS Feeds</h1>
+			<h1>Search UK University RSS Feeds (demo site)</h1>
 			<form name="search" method="get" action="">
 				Search for: <input type="text" name="query" />
 				<input type="submit" name="search" value="Search" />
